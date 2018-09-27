@@ -17,7 +17,7 @@ description: "Define activity policies with Office 365 Cloud App Security to set
 
 # Activity policies and alerts in Office 365 Cloud App Security
 
-Office 365 Advanced Security Management is now Office 365 Cloud App Security.
+Office 365 Advanced Security Management is now Office 365 Cloud App Security. 
   
 |****Evaluation** \>**|****Planning** \>**|****Deployment** \>**|****Utilization****|
 |:-----|:-----|:-----|:-----|
