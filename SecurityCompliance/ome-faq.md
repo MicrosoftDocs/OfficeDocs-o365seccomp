@@ -132,4 +132,5 @@ Not at this time but coming soon.
 
 Yes. All encrypted email messages are discoverable by Office 365 compliance features.
   
-
+## Can someone with Delegated full access permissions view encrypted messages?
+Yes. Encrypted emails can be viewed by those with delegate mailbox permissions
