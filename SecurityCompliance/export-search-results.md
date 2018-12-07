@@ -325,3 +325,5 @@ Here's more information about exporting search results.
 - All search results and the export reports are included in a folder that has the same name as the Content Search. The email messages that were exported are located in a folder named **Exchange**. Documents are located in a folder named **SharePoint**. 
     
 - The file system metadata for documents on SharePoint and OneDrive for Business sites is maintained when documents are exported to your local computer. That means document properties, such as created and last modified dates, aren't changed when documents are exported.
+
+- If your search results include a list item from SharePoint, all rows in the list will be exported for contextual purposes.  This will include any attachments.  The additional attachments may cause the count of items exported to be different than the original estimate. 
