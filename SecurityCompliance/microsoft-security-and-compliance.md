@@ -71,7 +71,7 @@ After this update is rolled out, if your organization has Microsoft 365 Enterpri
 
 ### Licenses
 
-To get the new Microsoft 365 security center and Microsoft 365 compliance center, your organization must have a subscription to Microsoft 365 E3 or E5, or a Volume Licensing equivalent (which consists of Office 365 Enterprise E3 or E5, Enterprise Mobility + Security E3 or E5, and Windows 10 Enterprise E3/E5). To learn more about these plans, see [Discover the Microsoft 365 Enterprise solution that’s right for you](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans).
+To get the new Microsoft 365 security center and Microsoft 365 compliance center, your organization must have a subscription to Microsoft 365 E3 or E5, or a Volume Licensing equivalent (which consists of Office 365 Enterprise E3 or E5, Enterprise Mobility + Security E3 or E5, and Windows 10 Enterprise E3/E5), or some standalone plans. To learn more about these plans, see [Discover the Microsoft 365 Enterprise solution that’s right for you](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans) and [Office 365 Security & Compliance Center](https://docs.microsoft.com/en-us/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center).
 
 ### Roles and permissions
 
