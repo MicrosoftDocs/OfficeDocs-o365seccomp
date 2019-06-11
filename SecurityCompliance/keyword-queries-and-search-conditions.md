@@ -1,5 +1,6 @@
 ---
 title: "Keyword queries and search conditions for Content Search"
+ms.reviewer: 
 ms.author: markjjo
 author: markjjo
 manager: laurawi

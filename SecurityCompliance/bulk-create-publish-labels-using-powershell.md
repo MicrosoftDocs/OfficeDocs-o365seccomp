@@ -1,5 +1,7 @@
 ---
 title: "Bulk create and publish retention labels by using PowerShell"
+ms.reviewer: 
+manager: 
 ms.author: stephow
 author: stephow-msft
 ms.date: 

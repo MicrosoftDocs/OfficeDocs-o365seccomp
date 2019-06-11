@@ -1,5 +1,6 @@
 ---
 title: "Manage safe sender lists for bulk mailers"
+ms.reviewer: 
 ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi

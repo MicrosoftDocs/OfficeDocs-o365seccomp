@@ -1,5 +1,6 @@
 ---
 title: "Close or delete a case"
+ms.reviewer: 
 ms.author: markjjo
 author: markjjo
 manager: laurawi

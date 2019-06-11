@@ -1,5 +1,6 @@
 ---
 title: "Configure the outbound spam policy"
+ms.reviewer: 
 ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi

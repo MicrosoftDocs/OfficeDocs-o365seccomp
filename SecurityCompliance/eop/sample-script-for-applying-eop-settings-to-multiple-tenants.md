@@ -1,5 +1,6 @@
 ---
 title: "Sample script for applying EOP settings to multiple tenants"
+ms.reviewer: 
 ms.author: krowley
 author: kccross
 manager: laurawi

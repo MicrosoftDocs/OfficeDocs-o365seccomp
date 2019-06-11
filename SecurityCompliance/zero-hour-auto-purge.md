@@ -1,5 +1,6 @@
 ---
 title: "Zero-hour auto purge - protection against spam and malware"
+ms.reviewer: 
 ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi

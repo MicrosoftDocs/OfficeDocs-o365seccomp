@@ -1,5 +1,6 @@
 ---
 title: "Set up your EOP service"
+ms.reviewer: 
 ms.author: krowley
 author: kccross
 manager: laurawi

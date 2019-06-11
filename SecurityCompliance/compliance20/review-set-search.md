@@ -1,5 +1,6 @@
 ---
 title: "Query the data in a review set"
+ms.reviewer: 
 ms.author: markjjo
 author: markjjo
 manager: laurawi

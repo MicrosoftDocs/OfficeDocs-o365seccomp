@@ -1,5 +1,6 @@
 ---
 title: "Chief Information Security Officer (CISO) Workshop, Module 4b: Threat Protection Strategy"
+ms.reviewer: 
 ms.author: robmazz
 author: robmazz
 manager: laurawi

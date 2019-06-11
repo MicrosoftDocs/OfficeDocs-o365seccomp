@@ -1,5 +1,6 @@
 ---
 title: "Fix email delivery issues for error code 5.7.7xx in Exchange Online"
+ms.reviewer: 
 ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi

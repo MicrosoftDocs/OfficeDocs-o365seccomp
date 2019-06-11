@@ -1,5 +1,6 @@
 ---
 title: "Chief Information Security Officer (CISO) Workshop, Module 2: Security Management"
+ms.reviewer: 
 ms.author: robmazz
 author: robmazz
 manager: laurawi

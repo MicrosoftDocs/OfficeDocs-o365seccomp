@@ -1,5 +1,6 @@
 ---
 title: "Use Content Search in Office 365 for targeted collections"
+ms.reviewer: 
 ms.author: markjjo
 author: markjjo
 manager: laurawi

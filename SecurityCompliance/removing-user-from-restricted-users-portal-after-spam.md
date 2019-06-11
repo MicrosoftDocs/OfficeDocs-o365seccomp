@@ -1,5 +1,6 @@
 ---
 title: "Removing a user from the Restricted Users portal after sending spam email"
+ms.reviewer: 
 ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi

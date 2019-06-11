@@ -1,5 +1,6 @@
 ---
 title: "GDPR for Office Online Server and Office Web Apps Server"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

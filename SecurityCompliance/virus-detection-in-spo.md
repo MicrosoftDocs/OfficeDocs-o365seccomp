@@ -1,5 +1,6 @@
 ---
 title: "Virus detection in SharePoint Online"
+ms.reviewer: 
 ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi

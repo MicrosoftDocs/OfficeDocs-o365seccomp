@@ -1,5 +1,6 @@
 ---
 title: "Office 365 Tenant Isolation in the Office Graph and Delve"
+ms.reviewer: 
 ms.author: robmazz
 author: robmazz
 manager: laurawi

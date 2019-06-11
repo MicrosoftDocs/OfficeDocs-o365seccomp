@@ -1,5 +1,6 @@
 ---
 title: "Add or remove members from a case"
+ms.reviewer: 
 ms.author: markjjo
 author: markjjo
 manager: laurawi

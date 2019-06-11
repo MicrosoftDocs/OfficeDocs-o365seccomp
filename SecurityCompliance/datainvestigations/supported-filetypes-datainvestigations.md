@@ -1,5 +1,6 @@
 ---
 title: "Supported file types in Data Investigations (Preview)"
+ms.reviewer: 
 ms.author: markjjo
 author: markjjo
 manager: laurawi

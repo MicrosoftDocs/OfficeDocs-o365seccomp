@@ -1,5 +1,6 @@
 ---
 title: "Microsoft Compliance Manager and the GDPR"
+ms.reviewer: 
 ms.author: robmazz
 author: robmazz
 manager: laurawi

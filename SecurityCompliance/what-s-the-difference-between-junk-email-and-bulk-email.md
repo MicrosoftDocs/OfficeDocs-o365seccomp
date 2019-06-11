@@ -1,5 +1,6 @@
 ---
 title: "What's the difference between junk email and bulk email?"
+ms.reviewer: 
 ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi

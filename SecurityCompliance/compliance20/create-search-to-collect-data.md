@@ -1,5 +1,6 @@
 ---
 title: "Create a search to collect data"
+ms.reviewer: 
 ms.author: markjjo
 author: markjjo
 manager: laurawi

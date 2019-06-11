@@ -1,5 +1,6 @@
 ---
 title: "Configuring privileged access management in Office 365"
+ms.reviewer: 
 ms.author: robmazz
 author: robmazz
 manager: laurawi

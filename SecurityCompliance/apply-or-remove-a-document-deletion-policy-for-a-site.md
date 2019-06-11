@@ -1,5 +1,6 @@
 ---
 title: "Apply or remove a document deletion policy for a site"
+ms.reviewer: 
 ms.author: stephow
 author: stephow-msft
 manager: laurawi

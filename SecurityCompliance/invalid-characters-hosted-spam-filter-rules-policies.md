@@ -1,5 +1,6 @@
 ---
 title: "Avoid invalid characters in your spam filter rules and the spam filter policy"
+ms.reviewer: 
 ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi

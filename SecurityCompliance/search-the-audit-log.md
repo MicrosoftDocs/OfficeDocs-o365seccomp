@@ -1,5 +1,6 @@
 ---
 title: "Search the audit log for user and admin activity in Office 365"
+ms.reviewer: 
 ms.author: markjjo
 author: markjjo
 manager: laurawi

@@ -1,5 +1,6 @@
 ---
 title: "Office 365 Defending Cloud Services Against Denial-of-Service Attacks"
+ms.reviewer: 
 ms.author: robmazz
 author: robmazz
 manager: laurawi

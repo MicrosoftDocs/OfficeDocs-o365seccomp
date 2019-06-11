@@ -1,5 +1,6 @@
 ---
 title: "Assign permissions for Data Investigations (Preview)"
+ms.reviewer: 
 ms.author: markjjo
 author: markjjo
 manager: laurawi

@@ -1,5 +1,6 @@
 ---
 title: "Create a document deletion policy"
+ms.reviewer: 
 ms.author: stephow
 author: stephow-MSFT
 manager: laurawi

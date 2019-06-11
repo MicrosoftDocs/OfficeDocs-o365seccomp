@@ -1,5 +1,6 @@
 ---
 title: "Apply a sensitivity label to content automatically"
+ms.reviewer: 
 ms.author: stephow
 author: stephow-MSFT
 manager: laurawi

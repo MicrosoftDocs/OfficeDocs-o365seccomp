@@ -1,5 +1,6 @@
 ---
 title: "Restrict access to content by using encryption in sensitivity labels"
+ms.reviewer: 
 ms.author: stephow
 author: stephow-MSFT
 manager: laurawi

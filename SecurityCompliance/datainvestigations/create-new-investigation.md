@@ -1,5 +1,6 @@
 ---
 title: "Create a new investigation in Data Investigations (Preview)"
+ms.reviewer: 
 ms.author: markjjo
 author: markjjo
 manager: laurawi

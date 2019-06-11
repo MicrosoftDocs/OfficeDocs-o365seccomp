@@ -1,5 +1,6 @@
 ---
 title: "Automate event-driven retention"
+ms.reviewer: 
 ms.author: stephow
 author: stephow-MSFT
 manager: laurawi

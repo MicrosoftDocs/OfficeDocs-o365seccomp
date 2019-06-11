@@ -1,5 +1,6 @@
 ---
 title: "Get started with the Microsoft Service Trust Portal"
+ms.reviewer: 
 ms.author: markjjo
 author: markjjo
 manager: laurawi

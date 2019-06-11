@@ -1,5 +1,6 @@
 ---
 title: "Manage review sets in Advanced eDiscovery"
+ms.reviewer: 
 ms.author: markjjo
 author: markjjo
 manager: laurawi

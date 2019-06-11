@@ -1,5 +1,6 @@
 ---
 title: "Overview of sensitivity labels"
+ms.reviewer: 
 ms.author: stephow
 author: stephow-MSFT
 manager: laurawi

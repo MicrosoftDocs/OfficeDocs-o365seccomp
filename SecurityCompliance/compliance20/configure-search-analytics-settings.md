@@ -1,5 +1,6 @@
 ---
 title: "Configure search and analytics settings"
+ms.reviewer: 
 ms.author: markjjo
 author: markjjo
 manager: laurawi

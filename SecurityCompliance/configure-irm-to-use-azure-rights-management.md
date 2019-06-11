@@ -1,5 +1,6 @@
 ---
 title: "Configure IRM to use Azure Rights Management"
+ms.reviewer: 
 ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi

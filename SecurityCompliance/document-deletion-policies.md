@@ -1,5 +1,6 @@
 ---
 title: "Overview of document deletion policies"
+ms.reviewer: 
 ms.author: stephow
 author: stephow-MSFT
 manager: laurawi

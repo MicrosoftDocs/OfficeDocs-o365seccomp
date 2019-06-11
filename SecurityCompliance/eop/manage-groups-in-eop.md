@@ -1,5 +1,6 @@
 ---
 title: "Manage groups in EOP"
+ms.reviewer: 
 ms.author: krowley
 author: kccross
 manager: laurawi

@@ -1,5 +1,6 @@
 ---
 title: "Bulk import external contacts to Exchange Online"
+ms.reviewer: 
 ms.author: markjjo
 author: markjjo
 manager: laurawi

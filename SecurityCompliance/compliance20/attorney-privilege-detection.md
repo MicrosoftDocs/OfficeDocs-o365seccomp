@@ -1,5 +1,6 @@
 ---
 title: "Set up attorney-client privilege detection in Advanced eDiscovery"
+ms.reviewer: 
 ms.author: markjjo
 author: markjjo
 manager: laurawi

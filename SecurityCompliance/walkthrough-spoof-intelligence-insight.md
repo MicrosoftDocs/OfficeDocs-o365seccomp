@@ -1,5 +1,7 @@
 ---
 title: "Walkthrough spoof intelligence insight"
+ms.reviewer: 
+manager: 
 ms.author: tracyp
 author: MSFTTracyP
 ms.date: 7/30/2018

@@ -1,5 +1,6 @@
 ---
 title: "Overview of event-driven retention"
+ms.reviewer: 
 ms.author: stephow
 author: stephow-MSFT
 manager: laurawi

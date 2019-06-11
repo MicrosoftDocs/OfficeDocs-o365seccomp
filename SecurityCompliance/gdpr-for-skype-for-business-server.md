@@ -1,5 +1,6 @@
 ---
 title: "GDPR for Skype for Business Server"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

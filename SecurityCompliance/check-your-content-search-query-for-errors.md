@@ -1,5 +1,6 @@
 ---
 title: "Check your Content Search query for errors"
+ms.reviewer: 
 ms.author: markjjo
 author: markjjo
 manager: laurawi
