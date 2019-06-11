@@ -1,5 +1,6 @@
 ---
 title: "Sync user certificates to Office 365 for S/MIME"
+ms.reviewer: 
 ms.author: chrisda
 author: chrisda
 manager: Serdars

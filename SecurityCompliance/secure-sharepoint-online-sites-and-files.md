@@ -1,5 +1,6 @@
 ---
 title: "Secure SharePoint Online sites and files"
+ms.reviewer: 
 ms.author: bcarter
 author: brendacarter
 manager: laurawi

@@ -1,5 +1,6 @@
 ---
 title: "Custom sensitive information types for DLP"
+ms.reviewer: 
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi

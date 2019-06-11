@@ -1,5 +1,6 @@
 ---
 title: "Customize a built-in sensitive information type"
+ms.reviewer: 
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi

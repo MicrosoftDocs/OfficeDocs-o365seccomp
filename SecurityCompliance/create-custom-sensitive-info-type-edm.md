@@ -1,5 +1,6 @@
 ---
 title: "Create custom sensitive information types with Exact Data Match"
+ms.reviewer: 
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi

@@ -1,5 +1,6 @@
 ---
 title: "Create a custom sensitive information type in the Security & Compliance Center"
+ms.reviewer: 
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi

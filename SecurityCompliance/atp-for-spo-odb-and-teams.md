@@ -1,5 +1,6 @@
 ---
 title: "Office 365 ATP for SharePoint, OneDrive, and Microsoft Teams"
+ms.reviewer: 
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi

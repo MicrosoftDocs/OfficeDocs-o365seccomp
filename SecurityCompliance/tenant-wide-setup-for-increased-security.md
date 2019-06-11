@@ -1,5 +1,6 @@
 ---
 title: "Configure your Office 365 tenant for increased security"
+ms.reviewer: 
 ms.author: bcarter
 author: BrendaCarter
 manager: laurawi

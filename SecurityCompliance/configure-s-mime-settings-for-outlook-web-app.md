@@ -1,5 +1,6 @@
 ---
 title: "Configure S/MIME settings in Exchange Online for Outlook on the web"
+ms.reviewer: 
 ms.author: chrisda
 author: chrisda
 manager: serdars

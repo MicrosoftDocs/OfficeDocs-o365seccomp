@@ -1,5 +1,6 @@
 ---
 title: "Enable the Report Message add-in"
+ms.reviewer: 
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi

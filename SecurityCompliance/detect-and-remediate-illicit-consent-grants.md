@@ -1,5 +1,6 @@
 ---
 title: "Detect and Remediate Illicit Consent Grants in Office 365"
+ms.reviewer: 
 ms.author: chrfox
 author: chrfox
 manager: laurawi

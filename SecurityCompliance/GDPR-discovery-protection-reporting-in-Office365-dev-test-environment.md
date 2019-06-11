@@ -1,5 +1,6 @@
 ---
 title: "GDPR discovery, protection, and reporting in the Office 365 dev/test environment"
+ms.reviewer: 
 ms.author: bcarter
 author: brendacarter
 manager: laurawi

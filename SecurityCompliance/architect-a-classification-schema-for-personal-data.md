@@ -1,5 +1,6 @@
 ---
 title: "Architect a classification schema for personal data"
+ms.reviewer: 
 ms.author: bcarter
 author: brendacarter
 manager: laurawi

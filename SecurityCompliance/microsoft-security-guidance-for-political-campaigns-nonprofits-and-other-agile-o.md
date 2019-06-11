@@ -1,5 +1,6 @@
 ---
 title: "Microsoft Security Guidance for Political Campaigns, Nonprofits, and Other Agile Organizations"
+ms.reviewer: 
 ms.author: bcarter
 author: brendacarter
 manager: laurawi
