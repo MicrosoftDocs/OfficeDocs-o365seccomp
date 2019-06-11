@@ -1,5 +1,6 @@
 ---
 title: "How Office 365 ATP Safe Attachments works"
+ms.reviewer: 
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi

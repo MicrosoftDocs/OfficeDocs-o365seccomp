@@ -1,5 +1,6 @@
 ---
 title: "SharePoint-Compatible PDF readers that support Microsoft Information Rights Management services"
+ms.reviewer: 
 ms.author: krowley
 author: kccross
 manager: laurawi

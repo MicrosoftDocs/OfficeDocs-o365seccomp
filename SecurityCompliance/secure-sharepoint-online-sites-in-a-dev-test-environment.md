@@ -1,5 +1,6 @@
 ---
 title: "Secure SharePoint Online sites in a dev/test environment"
+ms.reviewer: 
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi

@@ -1,5 +1,6 @@
 ---
 title: "Set up encryption in Office 365 Enterprise"
+ms.reviewer: 
 ms.author: krowley
 author: kccross
 manager: laurawi

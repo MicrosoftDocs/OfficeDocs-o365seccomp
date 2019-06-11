@@ -1,5 +1,6 @@
 ---
 title: "Get started with the default DLP policy"
+ms.reviewer: 
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi

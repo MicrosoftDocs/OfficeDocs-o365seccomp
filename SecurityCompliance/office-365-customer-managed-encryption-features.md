@@ -1,5 +1,6 @@
 ---
 title: "Office 365 Customer-managed encryption features"
+ms.reviewer: 
 ms.author: krowley
 author: kccross
 manager: laurawi

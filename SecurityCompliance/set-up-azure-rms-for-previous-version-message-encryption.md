@@ -1,5 +1,6 @@
 ---
 title: "Set up Azure Rights Management for the previous version of Office 365 Message Encryption"
+ms.reviewer: 
 ms.author: krowley
 author: kccross
 manager: laurawi

@@ -1,5 +1,6 @@
 ---
 title: "Set up new Office 365 Message Encryption capabilities"
+ms.reviewer: 
 ms.author: krowley
 author: kccross
 manager: laurawi

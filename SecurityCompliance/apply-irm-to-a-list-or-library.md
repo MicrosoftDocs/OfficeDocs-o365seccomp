@@ -1,5 +1,6 @@
 ---
 title: "Apply Information Rights Management (IRM) to a list or library"
+ms.reviewer: 
 ms.author: krowley
 author: kccross
 manager: laurawi

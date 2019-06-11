@@ -1,5 +1,6 @@
 ---
 title: "Threat Explorer (and real-time detections)"
+ms.reviewer: 
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi

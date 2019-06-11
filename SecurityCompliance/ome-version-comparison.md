@@ -1,5 +1,6 @@
 ---
 title: "Office 365 Message Encryption (OME) version comparison"
+ms.reviewer: 
 ms.author: krowley
 author: kccross
 manager: laurawi

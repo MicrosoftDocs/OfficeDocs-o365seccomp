@@ -1,5 +1,6 @@
 ---
 title: "Best practices for configuring EOP"
+ms.reviewer: 
 ms.author: krowley
 author: kccross
 manager: laurawi

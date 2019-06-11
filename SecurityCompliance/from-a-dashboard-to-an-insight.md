@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough - From a dashboard to an insight"
+ms.reviewer: 
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi

@@ -1,5 +1,6 @@
 ---
 title: "Enable or disable safety tips in Office 365"
+ms.reviewer: 
 ms.author: krowley
 author: kccross
 manager: laurawi

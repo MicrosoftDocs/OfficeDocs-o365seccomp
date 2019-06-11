@@ -1,5 +1,6 @@
 ---
 title: "Office 365 Encryption for Skype, OneDrive, SharePoint, and Exchange"
+ms.reviewer: 
 ms.author: krowley
 author: kccross
 manager: laurawi

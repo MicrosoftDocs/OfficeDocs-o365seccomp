@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough - From a detailed report to an insight"
+ms.reviewer: 
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi

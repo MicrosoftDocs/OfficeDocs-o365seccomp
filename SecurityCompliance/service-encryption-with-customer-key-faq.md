@@ -1,5 +1,6 @@
 ---
 title: "Service encryption with Customer Key for Office 365 FAQ"
+ms.reviewer: 
 ms.author: krowley
 author: kccross
 manager: laurawi

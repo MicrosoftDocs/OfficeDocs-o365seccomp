@@ -1,5 +1,6 @@
 ---
 title: "Keep your Office 365 users safe with Office 365 Threat Investigation and Response capabilities"
+ms.reviewer: 
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi

@@ -1,5 +1,6 @@
 ---
 title: "Revoke email encrypted by Office 365 Advanced Message Encryption"
+ms.reviewer: 
 ms.author: krowley
 author: kccross
 manager: laurawi

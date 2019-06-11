@@ -1,5 +1,6 @@
 ---
 title: "Configure groups and users for a political campaign dev/test environment"
+ms.reviewer: 
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi

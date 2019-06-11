@@ -1,5 +1,6 @@
 ---
 title: "Information barriers overview"
+ms.reviewer: 
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi

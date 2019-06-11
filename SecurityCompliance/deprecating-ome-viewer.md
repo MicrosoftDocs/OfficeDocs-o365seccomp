@@ -1,5 +1,7 @@
 ---
 title: "Deprecating Office 365 Message Encryption Viewer App"
+ms.reviewer: 
+manager: 
 ms.author: krowley
 author: kccross
 ms.date: 6/29/2018

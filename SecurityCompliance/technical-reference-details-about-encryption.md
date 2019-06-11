@@ -1,5 +1,6 @@
 ---
 title: "Technical reference details about encryption in Office 365"
+ms.reviewer: 
 ms.author: krowley
 author: kccross
 manager: laurawi

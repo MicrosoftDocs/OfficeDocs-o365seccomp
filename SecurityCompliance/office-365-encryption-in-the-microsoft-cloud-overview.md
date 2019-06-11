@@ -1,5 +1,6 @@
 ---
 title: "Encryption in the Microsoft Cloud"
+ms.reviewer: 
 ms.author: krowley
 author: kccross
 manager: laurawi

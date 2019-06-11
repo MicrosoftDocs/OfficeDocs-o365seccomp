@@ -1,5 +1,6 @@
 ---
 title: "Send email notifications and show policy tips for DLP policies"
+ms.reviewer: 
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi

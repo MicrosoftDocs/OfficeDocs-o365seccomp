@@ -1,5 +1,6 @@
 ---
 title: "Design an isolated SharePoint Online team site"
+ms.reviewer: 
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi

@@ -1,5 +1,6 @@
 ---
 title: "Configure end-user spam notifications in EOP"
+ms.reviewer: 
 ms.author: krowley
 author: kccross
 manager: laurawi

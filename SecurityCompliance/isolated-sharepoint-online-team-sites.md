@@ -1,5 +1,6 @@
 ---
 title: "Isolated SharePoint Online team sites"
+ms.reviewer: 
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
