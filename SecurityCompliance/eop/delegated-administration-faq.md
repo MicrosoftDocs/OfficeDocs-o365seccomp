@@ -24,7 +24,7 @@ A. If you are a Microsoft partner or reseller, and you've signed up to be a Micr
     
 2. Sign up for Office 365 delegated administration. Before you can start administering a customer's account, they must authorize you as a delegated administrator. To obtain their approval, you first [send them an offer for delegated administration](https://go.microsoft.com/fwlink/?LinkId=396829). (You can also offer delegated administration to your customer at a later time.) 
     
-3. Create the delegated admin account using the steps documented in [Add or delete a delegated admin](https://go.microsoft.com/fwlink/?LinkId=396831).
+3. Create the delegated admin account using the steps documented in [Partners: Offer delegated administration](https://support.office.com/article/partners-offer-delegated-administration-26530dc0-ebba-415b-86b1-b55bc06b073e).
     
 Visit [Partners: Build your business and administer your Office 365 partner account](https://go.microsoft.com/fwlink/?LinkId=301485) for more information about how to set up Office 365 delegated administration. 
   
