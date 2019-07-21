@@ -35,7 +35,9 @@ Using the upload Non-Office 365 feature as described in this procedure requires 
 - An existing eDiscovery case
     
 - All the files for uploading gathered into folders where there is one folder per custodian and the folders' name is in this format  *alias@domainname*  . The  *alias@domainname*  must be users Office 365 alias and domain. You can collect all the  *alias@domainname*  folders into a root folder. The root folder can only contain the  *alias@domainname*  folders, there must be no loose files in the root folder 
-    
+
+- [Supported file types](compliance20/supported-filetypes-ediscovery20.md) for upload into Advanced eDiscovery
+
 - An account that is either an eDiscovery Manager or eDiscovery Administrator
     
 - [Microsoft Azure Storage Tools](https://aka.ms/downloadazcopy) installed on a computer that has access to the non-Office 365 content folder structure. 
