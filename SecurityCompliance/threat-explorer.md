@@ -159,14 +159,12 @@ To view and use Explorer or real-time detections, you must have appropriate perm
     - View-only Organization Management
     - View-Only Recipients role
     - Compliance Management
-    - 
+
 To learn more about roles and permissions, see the following resources:
 
 - [Permissions in the Office 365 Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md)
 - [Feature permissions in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions)
   
-
-
 ## Some differences between Real time detection and Threat Exporter.
 
  - **Real-Time detection report** is shipped with ATP P1 subscription while **Threat Explorer** comes with ATP P2.
