@@ -36,7 +36,7 @@ After receiving a notification message, end users can choose from the following 
 
 **Release & Report**, if the message isn’t spam and you want to send the message to your mailbox and report it to Microsoft for analysis.
 
-**Block** if you want Office 365 to add the sender to your blocked senders list.
+**Block Sender** if you want Office 365 to add the sender to your blocked senders list.
   
 ## What do you need to know before you begin?
 <a name="sectionSection0"> </a>

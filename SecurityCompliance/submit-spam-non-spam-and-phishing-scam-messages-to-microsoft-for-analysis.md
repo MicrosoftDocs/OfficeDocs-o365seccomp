@@ -22,6 +22,8 @@ It can be frustrating when users in your organization receive junk messages (spa
   
 > [!NOTE]
 > Because of the high volume of submissions that we receive, we may not be able to answer all requests for analysis. 
+
+Admins can send email, url, and attachments to Microsoft for review. See [Admin submissions in Office 365 ATP](atp-admin-submission.md).
   
 ## Submit junk or phishing messages that passed through the spam filters
 <a name="sectionSection0"> </a>

@@ -3,7 +3,7 @@ title: "Unverified Sender"
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
-ms.date: 04/25/2019
+ms.date: 07/11/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -16,6 +16,9 @@ description: "To prevent phishing messages from reaching your mailbox, Outlook.c
 ---
 
 # Unverified Sender
+
+> [!NOTE] 
+> These updates are rolling out now, and might not be available yet for all users.
 
 To prevent phishing messages from reaching your mailbox, Outlook.com and Outlook on the web verify that the sender is who they say they are and mark suspicious messages as junk email.
 
@@ -30,7 +33,7 @@ Outlook.com and Outlook on the web show indicators when the sender of a message 
 
 If you are an Office 365 customer you can manage this feature through the Security & Compliance Center. 
 
-- In the Office 365 Security & Compliance Center, tenant admins can turn the feature on, or off, through the Anti-spoofing protection under the Anti-Phish policy. Additionally, it can be managed through the ‘Set-AntiPhishPolicy’ cmdlet. For more details, see Anti-phishing protection in Office 365 and Set-AntiPhishPolicy.
+- In the Office 365 Security & Compliance Center, global or security administrators can turn the feature on or off, through anti-spoofing protection under the Anti-Phish policy. Additionally, it can be managed through the ‘Set-AntiPhishPolicy’ cmdlet. For more details, see [Anti-phishing protection in Office 365](anti-phishing-protection.md) and [Set-AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/set-antiphishpolicy?view=exchange-ps).
 
     ![Editing unauthenticated senders in the graphic interface.](media/unverified-sender-article-editing-unauthenticated-senders.jpg)
 
