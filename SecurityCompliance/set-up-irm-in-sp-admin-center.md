@@ -49,6 +49,9 @@ When people download files in an IRM-enabled list or library, the files are encr
 You cannot create or edit documents in an IRM-enabled library using Office in a browser. Instead, one person at a time can download and edit IRM-encrypted files. Use check-in and check-out to manage  *co-authoring*  , or authoring across multiple users. 
   
 When you download a PDF file from an IRM-protected library, Office 365 creates a protected PDF file. The file's extension won't change, but the file is protected. To view this file you'll need the Azure Information Protection viewer, the full Azure Information Protection client, or another application that supports viewing protected PDF files. 
+
+> [NOTE]
+> There is no track revoke capability even with valid licenses for EMS E3 or EMS E5.
   
 SharePoint Online supports encryption of the following file types:
   
