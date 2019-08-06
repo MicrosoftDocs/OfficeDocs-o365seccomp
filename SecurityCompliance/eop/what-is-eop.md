@@ -3,8 +3,8 @@ title: "What is EOP"
 ms.author: tracyp
 author: msfttracyp
 ms.reviewer: andypunt
-manager: laurawi
-ms.date: 2/25/2019
+manager: dansimp
+ms.date: 02/25/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp

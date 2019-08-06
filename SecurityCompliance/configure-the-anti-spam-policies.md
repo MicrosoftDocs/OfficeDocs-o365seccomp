@@ -2,7 +2,7 @@
 title: "Configure the anti-spam policies"
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
+manager: dansimp
 ms.date: 6/9/2015
 audience: ITPro
 ms.topic: article

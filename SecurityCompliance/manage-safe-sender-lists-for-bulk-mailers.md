@@ -2,7 +2,7 @@
 title: "Manage safe sender lists for bulk mailers"
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
+manager: dansimp
 ms.date: 11/17/2014
 audience: ITPro
 ms.topic: article

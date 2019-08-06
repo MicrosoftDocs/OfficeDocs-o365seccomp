@@ -2,7 +2,7 @@
 title: "SIEM server integration with Microsoft 365"
 ms.author: deniseb
 author: denisebmsft
-manager: laurawi
+manager: dansimp
 audience: ITPro
 ms.topic: article
 ms.date: 06/17/2019

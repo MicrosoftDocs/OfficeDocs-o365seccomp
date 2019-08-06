@@ -47,7 +47,7 @@ Explore key learnings about threat protection, security evolution, strategies, a
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtQLJ]
 
-## Part 7: Roadmap for Shadow IT Risk from Third Party Software as a Service (5:05)
+## Part 7: Roadmap for Shadow IT Risk from Third-Party Software as a Service (5:05)
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtYMC]
 

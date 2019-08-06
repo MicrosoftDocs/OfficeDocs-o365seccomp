@@ -2,7 +2,7 @@
 title: "Manage mailbox auditing"
 ms.author: chrisda
 author: chrisda
-manager: serdars
+manager: dansimp
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp

@@ -2,7 +2,7 @@
 title: "Slow mail flow rules insight"
 ms.author: chrisda
 author: chrisda
-manager: serdars
+manager: dansimp
 ms.date: 5/3/2018
 audience: ITPro
 ms.topic: article

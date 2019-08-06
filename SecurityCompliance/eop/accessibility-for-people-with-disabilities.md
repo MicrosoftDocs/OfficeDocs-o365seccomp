@@ -1,8 +1,8 @@
 ---
 title: "Accessibility for people with disabilities"
-ms.author: scotv
-author: scotvidican
-manager: laurawi
+ms.author: tracyp
+author: MSFTTracyP
+manager: dansimp
 ms.date: 12/15/2016
 audience: ITPro
 ms.topic: article

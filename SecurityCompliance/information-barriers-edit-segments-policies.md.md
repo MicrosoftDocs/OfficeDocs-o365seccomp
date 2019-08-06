@@ -3,7 +3,7 @@ title: "Edit information barrier policies"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 06/28/2019
+ms.date: 07/08/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -13,7 +13,7 @@ localization_priority: None
 description: "Learn how to edit or remove policies for information barriers."
 ---
 
-# Edit (or remove) information barrier policies (Preview)
+# Edit (or remove) information barrier policies
 
 After you have [defined information barrier policies](information-barriers-policies.md), you might need to make changes to those policies or to your user segments, as part of [troubleshooting](information-barriers-troubleshooting.md) or as regular maintenance. Use this article as a guide.
 
@@ -27,8 +27,8 @@ After you have [defined information barrier policies](information-barriers-polic
 |[Set a policy to inactive status](#set-a-policy-to-inactive-status)     |Set a policy to inactive status when you want to make changes to a policy, or when you don't want a policy to be in effect.         |
 |[Remove a policy](#remove-a-policy)     |Remove an information barrier policy when you no longer need a particular policy in place.         |
 |[Stop a policy application](#stop-a-policy-application)     |Do this when you want to stop the process of applying information barrier policies.<br/>Note that stopping a policy application is not instant, and it does not undo policies that are already applied to users.         |
-|[Define policies for information barriers (Preview)](information-barriers-policies.md)     |Define an information barrier policy when you do not already have such policies in place, and you must restrict or limit communications between specific groups of users.         |
-|[Troubleshooting information barriers (Preview)](information-barriers-troubleshooting.md)     |Refer to this article when you run into unexpected issues with information barriers.         |
+|[Define policies for information barriers](information-barriers-policies.md)     |Define an information barrier policy when you do not already have such policies in place, and you must restrict or limit communications between specific groups of users.         |
+|[Troubleshooting information barriers](information-barriers-troubleshooting.md)     |Refer to this article when you run into unexpected issues with information barriers.         |
 
 > [!IMPORTANT]
 > To perform the tasks described in this article, you must be assigned an appropriate role, such as one of the following:<br/>- Microsoft 365 Enterprise Global Administrator<br/>- Office 365 Global Administrator<br/>- Compliance Administrator<br/>- IB Compliance Management (this is a new role!)<p>To learn more about prerequisites for information barriers, see [Prerequisites (for information barrier policies)](information-barriers-policies.md#prerequisites).<p>Make sure to [connect to Office 365 Security & Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).
@@ -47,7 +47,7 @@ User account attributes are used for defining segments so that information barri
     |---------|---------|
     |`Get-InformationBarrierRecipientStatus -Identity <value> -Identity2 <value>` <p>   You can use any value that uniquely identifies each user, such as name, alias, distinguished name, canonical domain name, email address, or GUID. <p>   (You can also use this cmdlet for a single user: `Get-InformationBarrierRecipientStatus -Identity <value>`)      |`Get-InformationBarrierRecipientStatus -Identity meganb -Identity2 alexw`  <p>   In this example, we refer to two user accounts in Office 365: *meganb* for *Megan*, and *alexw* for *Alex*.         |
 
-2. Determine which attribute you want to edit for your user account profile(s). Refer to [Attributes for information barrier policies (Preview)](information-barriers-attributes.md) for more details. 
+2. Determine which attribute you want to edit for your user account profile(s). Refer to [Attributes for information barrier policies](information-barriers-attributes.md) for more details. 
 
 3. Edit one or more user accounts to include values for the attribute you selected in the previous step. To do this, use one of the following procedures:
 
@@ -163,10 +163,10 @@ If, after you have started applying information barrier policies, you want to st
 
 [Get an overview of information barriers](information-barriers.md)
 
-[Define policies for information barriers (Preview)](information-barriers-policies.md)
+[Define policies for information barriers](information-barriers-policies.md)
 
 [Learn more about information barriers in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/information-barriers-in-teams)
 
-[Attributes for information barrier policies (Preview)](information-barriers-attributes.md)
+[Attributes for information barrier policies](information-barriers-attributes.md)
 
-[Troubleshooting information barriers (Preview)](information-barriers-troubleshooting.md)
+[Troubleshooting information barriers](information-barriers-troubleshooting.md)

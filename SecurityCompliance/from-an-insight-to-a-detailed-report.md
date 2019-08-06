@@ -2,8 +2,8 @@
 title: "Walkthrough - From an insight to a detailed report"
 ms.author: deniseb
 author: denisebmsft
-manager: laurawi
-ms.date: 6/4/2018
+manager: dansimp
+ms.date: 06/04/2018
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp

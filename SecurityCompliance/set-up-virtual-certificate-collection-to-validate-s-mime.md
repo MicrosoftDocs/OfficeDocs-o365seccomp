@@ -2,7 +2,7 @@
 title: "Set up virtual certificate collection in Exchange Online to validate S/MIME"
 ms.author: chrisda
 author: chrisda
-manager: serdars
+manager: dansimp
 ms.date:
 audience: ITPro
 ms.topic: article

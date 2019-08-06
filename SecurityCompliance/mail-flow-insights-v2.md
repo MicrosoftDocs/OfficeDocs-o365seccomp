@@ -2,7 +2,7 @@
 title: "Mail flow insights in the Security & Compliance Center"
 ms.author: chrisda
 author: chrisda
-manager: serdars
+manager: dansimp
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp

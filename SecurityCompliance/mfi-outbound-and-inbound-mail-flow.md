@@ -2,7 +2,7 @@
 title: "Outbound and inbound mail flow"
 ms.author: chrisda
 author: chrisda
-manager: serdars
+manager: dansimp
 ms.date: 8/7/2018
 audience: ITPro
 ms.topic: article

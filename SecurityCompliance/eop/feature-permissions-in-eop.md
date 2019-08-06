@@ -1,8 +1,8 @@
 ---
 title: "Feature permissions in EOP"
-ms.author: krowley
-author: kccross
-manager: laurawi
+ms.author: tracyp
+author: MSFTTracyP
+manager: dansimp
 ms.date: 1/30/2018
 audience: ITPro
 ms.topic: article

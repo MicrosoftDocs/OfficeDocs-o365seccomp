@@ -2,7 +2,7 @@
 title: "Anti-spoofing protection in Office 365"
 ms.author: tracyp
 author: MSFTtracyp
-manager: laurawi
+manager: dansimp
 ms.date: 03/29/2019
 audience: ITPro
 ms.topic: article

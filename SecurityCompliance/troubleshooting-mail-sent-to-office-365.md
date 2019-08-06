@@ -2,8 +2,8 @@
 title: "Troubleshooting mail sent to Office 365"
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
-ms.date: 5/2/2016
+manager: dansimp
+ms.date: 05/02/2016
 audience: ITPro
 ms.topic: troubleshooting
 ms.service: O365-seccomp

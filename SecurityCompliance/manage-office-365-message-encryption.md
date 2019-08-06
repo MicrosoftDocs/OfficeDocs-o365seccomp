@@ -128,6 +128,9 @@ For more information, and for a view of the client experience, see [View encrypt
    ```powershell
    Set-ActiveSyncOrganizationSettings -AllowRMSSupportForUnenlightenedApps $false
    ```
+> [!NOTE]
+
+> Individual mailbox policies (OWA/ActiveSync) override these settings (i.e. if -IRMEnabled is set to False within the respective OWA Mailbox policy, or ActiveSync Mailbox policy, then these configurations would not apply).
 
 ## Enable service-side decryption of email attachments for web browser mail clients
 

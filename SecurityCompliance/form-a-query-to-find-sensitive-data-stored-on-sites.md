@@ -2,7 +2,7 @@
 title: "Form a query to find sensitive data stored on sites"
 ms.author: deniseb
 author: denisebmsft
-manager: laurawi
+manager: dansimp
 ms.date: 6/29/2018
 audience: Admin
 ms.topic: article

@@ -2,7 +2,7 @@
 title: "Create safe sender lists in Office 365"
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
+manager: dansimp
 ms.date: 4/29/2019
 audience: ITPro
 ms.topic: article
@@ -81,6 +81,8 @@ When it’s not possible to use ETRs to globally allow a specific sender while v
 ## Use Anti-Spam Policy Sender/Domain Allow lists
 
 The least desirable option is to authorize by sender/domain. This option should be avoided *if at all possible* as it bypasses Spam/Spoof/Phish protection completely and does not evaluate sender authentication. This method increases your risk of receiving mail from bad actors and is best recommended temporarily and only when testing. The detailed steps can be found in [Configure your spam filter policies](https://docs.microsoft.com/en-us/office365/securitycompliance/configure-your-spam-filter-policies) document.
+
+The maximum limit for these lists is approximately 1000 entries.
 
 > [!CAUTION]
 > Configuring Anti-Spam polices to *allow sender/allow domain* will result in messages skipping spam filtering for a) messages from senders in the allow list, or b) any senders from an allowed domain. This method significantly increases the risk spammers can spoof the sending domain (or impersonate the full email address) which skips all spam filtering, sender authentication checks, and will send the message directly into a person's inbox.

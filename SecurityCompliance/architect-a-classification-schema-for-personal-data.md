@@ -3,7 +3,6 @@ title: "Architect a classification schema for personal data"
 ms.author: bcarter
 author: brendacarter
 manager: laurawi
-ms.date: 
 audience: ITPro
 ms.topic: overview
 ms.collection: 

@@ -2,7 +2,7 @@
 title: "How Exchange Online secures your email secrets"
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
+manager: dansimp
 ms.date: 07/01/2019
 audience: ITPro
 ms.topic: reference

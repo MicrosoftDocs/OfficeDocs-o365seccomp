@@ -2,7 +2,7 @@
 title: "Turn off junk email reporting in Outlook on the web"
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
+manager: dansimp
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp

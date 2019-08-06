@@ -2,7 +2,7 @@
 title: "Automated Investigation and Response (AIR) with Office 365"
 ms.author: deniseb
 author: denisebmsft
-manager: laurawi
+manager: dansimp
 ms.date: 06/25/2019
 audience: ITPro
 ms.topic: article

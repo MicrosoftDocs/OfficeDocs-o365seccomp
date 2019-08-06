@@ -35,7 +35,7 @@ Because most modern attacks involve compromising user identities, learn how to b
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtGm5]
 
-## Part 4: Building an Identity Perimeter (13:57)
+## Part 4: Build an Identity Perimeter (13:57)
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtYMg]
 

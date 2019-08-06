@@ -2,7 +2,7 @@
 title: "Use mail flow rules to configure bulk email filtering in Exchange Online Protection"
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
+manager: dansimp
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp

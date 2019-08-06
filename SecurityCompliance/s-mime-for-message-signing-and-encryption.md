@@ -2,7 +2,7 @@
 title: "S/MIME for message signing and encryption in Exchange Online"
 ms.author: chrisda
 author: chrisda
-manager: serdars
+manager: dansimp
 ms.date:
 audience: ITPro
 ms.topic: article

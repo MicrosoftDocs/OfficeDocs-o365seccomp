@@ -2,7 +2,7 @@
 title: "Introduction to information management policies"
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
+manager: dansimp
 ms.date: 5/16/2014
 audience: Admin
 ms.topic: overview

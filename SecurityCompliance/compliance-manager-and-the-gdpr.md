@@ -17,7 +17,7 @@ description: "Microsoft Compliance Manager is a free workflow-based risk assessm
 
 # Microsoft Compliance Manager and the GDPR
 
-The General Data Protection Regulation (GDPR) enacted by the European Union can impact your compliance strategy and mandate actions needed to manage user and customer information used in Compliance Manager.
+The General Data Protection Regulation (GDPR) enacted by the European Union can impact your compliance strategy and mandate specific actions to manage user and customer information used in Compliance Manager.
 
 ## User Privacy settings
 
@@ -54,7 +54,7 @@ For each user account identified, you can generate a report of dependencies link
 3. Open the document to review the report data.
 
 > [!IMPORTANT]
-> This is not a historical report that retains and displays state changes to Action Item assignment history. The generated report is a snapshot of the control Action Items assigned at the time that the report is run (date and time stamp written into the report). For example, any subsequent reassignment of Action Items result in different snapshot report data if this report is generated again for the same user.
+> The report data is not a historical list that retains and displays state changes to Action Item assignment history. The generated report is a snapshot of the control Action Items assigned at the time that the report is run (date and time stamp written into the report). For example, any subsequent reassignment of Action Items result in different snapshot report data if the report is generated again for the same user.
   
 ## Delete user data history
 

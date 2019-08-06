@@ -1,9 +1,9 @@
 ---
 title: "Legacy information for Office 365 Message Encryption"
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: krowley
+author: kccross
 manager: laurawi
-ms.date: 1/4/2018
+ms.date: 07/11/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -25,15 +25,15 @@ With Office 365 Message Encryption, your organization can send and receive encry
 Here are some examples:
   
 - A bank employee sends credit card statements to customers
-    
+
 - An insurance company representative provides policy details to customers
-    
+
 - A mortgage broker requests financial information from a customer for a loan application
-    
+
 - A health care provider sends health care information to patients
-    
+
 - An attorney sends confidential information to a customer or another attorney
-    
+
 ## How Office 365 Message Encryption works without the new capabilities
 
 Office 365 Message Encryption is an online service that's built on Microsoft Azure Rights Management (Azure RMS). With Azure RMS, administrators can define mail flow rules to determine the conditions for encryption. For example, a rule can require the encryption of all messages addressed to a specific recipient.
@@ -69,13 +69,13 @@ Recipients follow instructions in the message to open the attachment and authent
 As an Exchange Online and Exchange Online Protection administrator, you can customize your encrypted messages. For example, you can add your company's brand and logo, specify an introduction, and add disclaimer text in encrypted messages and in the portal where recipients view your encrypted messages. Using Windows PowerShell cmdlets, you can customize the following aspects of the viewing experience for recipients of encrypted email messages:
   
 - Introductory text of the email that contains the encrypted message
-    
+
 - Disclaimer text of the email that contains the encrypted message
-    
+
 - Portal text that will appear in the message viewing portal
-    
+
 - Logo that will appear in the email message and viewing portal
-    
+
 You can also revert back to the default look and feel at any time.
   
 The following example shows a custom logo for ContosoPharma in the email attachment:
@@ -85,9 +85,9 @@ The following example shows a custom logo for ContosoPharma in the email attachm
  **To customize encryption email messages and the encryption portal with your organization's brand**
   
 1. Connect to Exchange Online using Remote PowerShell, as described in [Connect to Exchange Online Using Remote PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-exchange-online-tenants-with-remote-windows-powershell-for-delegated).
-    
-2. Use the Set-OMEConfiguration cmdlet as described here: [Set-OMEConfiguration](http://technet.microsoft.com/en-us/3ef0aec0-ce28-411d-abe8-7236f082af1b) or use the following table for guidance. 
-    
+
+2. Use the Set-OMEConfiguration cmdlet as described here: [Set-OMEConfiguration](http://technet.microsoft.com/en-us/3ef0aec0-ce28-411d-abe8-7236f082af1b) or use the following table for guidance.
+
    **Encryption customization options**
 
 |**To customize this feature of the encryption experience**|**Use these Windows PowerShell commands**|
@@ -96,13 +96,13 @@ The following example shows a custom logo for ContosoPharma in the email attachm
 |Disclaimer statement in the email that contains the encrypted message  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> DisclaimerText "<your disclaimer statement, string of up to 1024 characters>"` <br/> **Example:** `Set-OMEConfiguration -Identity "OME Configuration" -DisclaimerText "This message is confidential for the use of the addressee only"` <br/> |
 |Text that appears at the top of the encrypted mail viewing portal  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -PortalText "<text for your portal, string of up to 128 characters>"` <br/> **Example:** `Set-OMEConfiguration -Identity "OME Configuration" -PortalText "ContosoPharma secure email portal"` <br/> |
 |Logo  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -Image <Byte[]>` <br/> **Example:** `Set-OMEConfiguration -Identity "OME configuration" -Image (Get-Content "C:\Temp\contosologo.png" -Encoding byte)` <br/> Supported file formats: .png, .jpg, .bmp, or .tiff  <br/> Optimal size of logo file: less than 40 KB  <br/> Optimal size of logo image: 170x70 pixels  <br/> |
-   
+
  **To remove brand customizations from encryption email messages and the encryption portal**
   
 1. Connect to Exchange Online using Remote PowerShell, as described in [Connect to Exchange Online Using Remote PowerShell](http://technet.microsoft.com/en-us/library/jj984289%28v=exchg.150%29.aspx).
-    
+
 2. Use the Set-OMEConfiguration cmdlet as described here: [Set-OMEConfiguration](http://technet.microsoft.com/3ef0aec0-ce28-411d-abe8-7236f082af1b). To remove your organization's branded customizations from the DisclaimerText, EmailText, and PortalText values, set the value to an empty string,  `""`. For all image values, such as Logo, set the value to  `"$null"`.
-    
+
    **Encryption customization options**
 
 |**To revert this feature of the encryption experience back to the default text and image**|**Use these Windows PowerShell commands**|
@@ -111,7 +111,7 @@ The following example shows a custom logo for ContosoPharma in the email attachm
 |Disclaimer statement in the email that contains the encrypted message  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> DisclaimerText "<empty string>"` <br/> **Example:** `Set-OMEConfiguration -Identity "OME Configuration" -DisclaimerText ""` <br/> |
 |Text that appears at the top of the encrypted mail viewing portal  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -PortalText "<empty string>"` <br/> **Example reverting back to default:** `Set-OMEConfiguration -Identity "OME Configuration" -PortalText ""` <br/> |
 |Logo  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -Image <"$null">` <br/> **Example reverting back to default:** `Set-OMEConfiguration -Identity "OME configuration" -Image $null` <br/> |
-   
+
 ## Service information for legacy Office 365 Message Encryption prior to the release of the new OME capabilities
 <a name="LegacyServiceInfo"> </a>
 
@@ -126,7 +126,7 @@ The following table provides technical details for the Office 365 Message Encryp
 |Exchange Online email retention policies  <br/> |Exchange Online doesn't store the encrypted messages.  <br/> |
 |Language support for Office 365 Message Encryption  <br/> | Office 365 Message encryption supports Office 365 languages, as follows:  <br/>  Incoming email messages and attached HTML files are localized based on the sender's language settings.  <br/>  The viewing portal is localized based on the recipient's browser settings.  <br/>  The body (content) of the encrypted message isn't localized.  <br/> |
 |Privacy information for OME Portal and OME Viewer App  <br/> |The [Office 365 Messaging Encryption Portal privacy statement](protected-message-viewer-portal-privacy-statement.md) provides detailed information about what Microsoft does and doesn't do with your private information.  <br/> |
-   
+
 ## Frequently Asked Questions about legacy OME
 <a name="LegacyServiceInfo"> </a>
 
@@ -137,9 +137,9 @@ Got questions about Office 365 Message Encryption? Here are some answers. If you
 Recipients outside your organization who receive Office 365 encrypted messages can view them in one of two ways:
   
 - By signing in with a Microsoft account or a work or school account associated with Office 365.
-    
+
 - By using a one-time pass code.
-    
+
  **Q. Are Office 365 encrypted messages stored in the cloud or on Microsoft servers?**
   
 No, the encrypted messages are kept on the recipient's email system, and when the recipient opens the message, it is temporarily posted for viewing on Office 365 servers. The messages are not stored there.
@@ -154,7 +154,7 @@ A license is required for every user in the organization who sends encrypted ema
   
  **Q. Do external recipients require subscriptions?**
   
-No, external recipients do not require a subscription to read or reply to encrypted messages. 
+No, external recipients do not require a subscription to read or reply to encrypted messages.
   
  **Q. How is Office 365 Message Encryption different from Rights Management Services (RMS)?**
   
@@ -181,12 +181,12 @@ Incoming email and HTML content is localized based on sender email settings. The
 Office 365 Message Encryption uses Rights Management Services (RMS) as its encryption infrastructure. The encryption method used depends on where you obtain the RMS keys used to encrypt and decrypt messages.
   
 - If you use Microsoft Azure RMS to obtain the keys, Cryptographic Mode 2 is used. Cryptographic Mode 2 is an updated and enhanced AD RMS cryptographic implementation. It supports RSA 2048 for signature and encryption, and supports SHA-256 for signature.
-    
+
 - If you use Active Directory (AD) RMS to obtain the keys, either Cryptographic Mode 1 or Cryptographic Mode 2 is used. The method used depends on your on-premises AD RMS deployment. Cryptographic Mode 1 is the original AD RMS cryptographic implementation. It supports RSA 1024 for signature and encryption, and supports SHA-1 for signature. This mode continues to be supported by all current versions of RMS.
-    
+
 For more information, see [AD RMS Cryptographic Modes](http://go.microsoft.com/fwlink/p/?LinkId=398616).
   
- **Q. Why do some encrypted messages say they come from Office365@messaging.microsoft.com?**
+ **Q. Why do some encrypted messages say they come from** Office365@messaging.microsoft.com?
   
 When an encrypted reply is sent from the encryption portal or through the OME Viewer app, the sending email address is set to Office365@messaging.microsoft.com because the encrypted message is sent through a Microsoft endpoint. This helps to prevent encrypted messages from being marked as spam. The displayed name on the email and the address within the encryption portal aren't changed because of this labeling. Also, this labeling only applies to messages sent through the portal, not through any other email client.
   
@@ -200,7 +200,7 @@ Yes. You have to add URLs for Exchange Online to the allow list for your organiz
   
  **Q. How many recipients can I send an Office 365 encrypted message to?**
   
-The recipient limit for an encrypted message is based on the number of characters in the message's **To** field. When combined (after distribution list expansion), recipient addresses in the **To** field should not exceed 11,980 characters. Because email addresses can vary in character length, there isn't a standard recipient limit for a single encrypted message. 
+The recipient limit is 500 recipients per message, or, when combined after distribution list expansion, 11,980 characters in the message's **To** field, whichever comes first.
   
  **Q. Is it possible to revoke a message sent to a particular recipient?**
   
@@ -212,6 +212,5 @@ There isn't a report that shows if an encrypted message has been viewed, but the
   
  **Q. What does Microsoft do with the information I provide through the OME Portal and the OME Viewer App?**
   
-The [Office 365 Messaging Encryption Portal privacy statement](protected-message-viewer-portal-privacy-statement.md) provides detailed information about what Microsoft does and doesn't do with your private information. 
-  
-
+The [Office 365 Messaging Encryption Portal privacy statement](protected-message-viewer-portal-privacy-statement.md) provides detailed information about what Microsoft does and doesn't do with your private information.
+ 

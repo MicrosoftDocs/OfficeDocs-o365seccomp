@@ -2,7 +2,7 @@
 title: "Safety tips in email messages in Office 365"
 ms.author: tracyp
 author: MSFTTracyP
-manager: scotv
+manager: dansimp
 ms.date: 10/6/2016
 audience: Admin
 ms.topic: overview

@@ -58,7 +58,7 @@ In order to gather all logs associated with UserID 1, for example, the first ste
 
 ## Types of Data
 
-Office Online logs contain a variety of different types of data. The following are examples of the data that ULS logs may contain:
+Office logs contain a variety of different types of data. The following are examples of the data that ULS logs may contain:
 
 -   Error codes for issues encountered during use of the product
 

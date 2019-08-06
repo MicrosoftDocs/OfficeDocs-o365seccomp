@@ -54,13 +54,13 @@ An Assessment is made of several components, which are:
   
 - **In-Scope Services** - Each assessment applies to a specific set of Microsoft services, which are listed in the In-Scope Cloud Services section. 
     
-- **Microsoft Managed Controls** - For each cloud service, Microsoft implements and manages a set of  *controls*  as part of Microsoft's compliance with various standards and regulations. These controls are organized into  *control families*  that align with the structure from the corresponding certification or regulation that the Assessment is aligned to. For each Microsoft managed control, Compliance Manager provides details about how Microsoft implemented the control, along with how and when that implementation was tested and validated by an independent third-party auditor. 
+- **Microsoft-Managed Controls** - For each cloud service, Microsoft implements and manages a set of  *controls*  as part of Microsoft's compliance with various standards and regulations. These controls are organized into  *control families*  that align with the structure from the corresponding certification or regulation that the Assessment is aligned to. For each Microsoft-managed control, Compliance Manager provides details about how Microsoft implemented the control, along with how and when that implementation was tested and validated by an independent third-party auditor. 
     
-    Here's an example of three Microsoft managed controls in the **Security** control family from an Assessment of Office 365 and the GDPR. 
+    Here's an example of three Microsoft-managed controls in the **Security** control family from an Assessment of Office 365 and the GDPR. 
 
-    ![Details of Microsoft managed controls in the Compliance Manager](media/d1351212-1ebf-424e-91b8-930c2b2edef1.png)
+    ![Details of Microsoft-managed controls in the Compliance Manager](media/d1351212-1ebf-424e-91b8-930c2b2edef1.png)
   
-  a. Specifies the following information from the certification or regulation that maps to the Microsoft managed control.
+  a. Specifies the following information from the certification or regulation that maps to the Microsoft-managed control.
 
   - **Control ID** - The section or article number from the certification or regulation that the control maps to.
     
@@ -68,17 +68,17 @@ An Assessment is made of several components, which are:
     
   - **Article ID** - This field is included only for GDPR assessments, as it specifies the corresponding GDPR article number.
     
-  - **Description** - Text of the standard or regulation that maps to the selected Microsoft managed control.
+  - **Description** - Text of the standard or regulation that maps to the selected Microsoft-managed control.
 
-  b. The Compliance Score for the control, which indicates the level of risk (due to non-compliance or control failure) associated with each Microsoft managed control. See [Understanding the Compliance Score](#understanding-the-compliance-score) for more information. Note that Compliance Scores are rated from 1 to 10 and are color-coded. Yellow indicates low risk controls, orange indicates medium-risk controls, and red indicated high-risk controls. 
+  b. The Compliance Score for the control, which indicates the level of risk (due to non-compliance or control failure) associated with each Microsoft-managed control. See [Understanding the Compliance Score](#understanding-the-compliance-score) for more information. Note that Compliance Scores are rated from 1 to 10 and are color-coded. Yellow indicates low risk controls, orange indicates medium-risk controls, and red indicated high-risk controls. 
     
   c. Information about the implementation status of a control, the date the control was tested, who performed the test, and the test result.
     
   d. For each control, you can click **More** to see additional information, including details about Microsoft's implementation of the control and details about how the control was tested and validated by an independent third-party auditor. 
     
-- **Customer Managed Controls** - This is the collection of controls that are managed by your organization. Your organization is responsible for implementing these controls as part of your compliance process for a given standard or regulation. Customer managed controls are also organized into control families for the corresponding certification or regulation. Use the customer managed controls to implement the recommended actions suggested by Microsoft as part of your compliance activities. Your organization can use the prescriptive guidance and recommended Customer Actions in each customer managed control to manage the implementation and assessment process for that control.
+- **Customer-Managed Controls** - This is the collection of controls that are managed by your organization. Your organization is responsible for implementing these controls as part of your compliance process for a given standard or regulation. Customer-managed controls are also organized into control families for the corresponding certification or regulation. Use the customer-managed controls to implement the recommended actions suggested by Microsoft as part of your compliance activities. Your organization can use the prescriptive guidance and recommended Customer Actions in each customer-managed control to manage the implementation and assessment process for that control.
     
-    Customer managed controls in Assessments also have built-in workflow management functionality that you can use to manage and track your organization's progress towards completing the Assessment. For example, a Compliance Officer in your organization can assign an Action Item to an IT admin who has the responsibility and necessary permissions to perform the actions that are recommended for the control. When that work is complete, the IT admin can upload evidence of their implementation tasks (for example, screen shots of configuration or policy settings) and then assign the Action Item back to the Compliance Officer to evaluate the collected evidence, test the implementation of the control, and record the implementation date and test results in Compliance Manager. For more information, see the [Managing the assessment process](#managing-the-assessment-process) section in the article. 
+    Customer-managed controls in Assessments also have built-in workflow management functionality that you can use to manage and track your organization's progress towards completing the Assessment. For example, a Compliance Officer in your organization can assign an Action Item to an IT admin who has the responsibility and necessary permissions to perform the actions that are recommended for the control. When that work is complete, the IT admin can upload evidence of their implementation tasks (for example, screenshots of configuration or policy settings) and then assign the Action Item back to the Compliance Officer to evaluate the collected evidence, test the implementation of the control, and record the implementation date and test results in Compliance Manager. For more information, see the [Managing the assessment process](#managing-the-assessment-process) section in the article. 
   
 ## Permissions and role-based access control
 
@@ -109,13 +109,13 @@ After Compliance Manager access has been configured, any user that does not have
 
 ## Understanding the Compliance Score
 
-On the Dashboard, Compliance Manager displays a total score for Office 365 assessments in the upper right hand corner of the tile. This is the overall total Compliance Score for the Assessment, and is the accumulation of points received for each control assessment that has been marked as Implemented and Tested in the Assessment. When adding an Assessment, you will see that the Compliance Score is already on the way towards completion because the points for the Microsoft managed controls that have been implemented by Microsoft and tested by independent third parties are already applied.
+On the Dashboard, Compliance Manager displays a total score for Office 365 assessments in the upper right-hand corner of the tile. This is the overall total Compliance Score for the Assessment, and is the accumulation of points received for each control assessment that has been marked as Implemented and Tested in the Assessment. When adding an Assessment, you will see that the Compliance Score is already on the way towards completion because the points for the Microsoft-managed controls that have been implemented by Microsoft and tested by independent third parties are already applied.
   
 ![Compliance Manager Dashboard - Total Compliance Score](media/756091aa-1afd-4aff-93ab-c6f6824f2add.png)
   
 The remaining points come from the successful customer control assessment, from the implementation and testing of the customer-managed controls, each of which has a specific value that contributes to the overall compliance score. 
   
-Each Assessment displays a risk-based Compliance Score to help you assess the level of risk (due to non-compliance or control failure) associated with each control (including both Microsoft managed and customer managed controls) in an Assessment. Each customer managed control is assigned a possible number of points (called a  *severity ranking*  ) on a scale from 1 to 10, where more points are awarded for controls associated with a higher risk factor if the control fails, and fewer points are awarded for lower-risk controls. 
+Each Assessment displays a risk-based Compliance Score to help you assess the level of risk (due to non-compliance or control failure) associated with each control (including both Microsoft managed and customer-managed controls) in an Assessment. Each customer-managed control is assigned a possible number of points (called a  *severity ranking) on a scale from 1 to 10, where more points are awarded for controls associated with a higher risk factor if the control fails, and fewer points are awarded for lower-risk controls. 
   
 For example, the User Access Management assessment control shown below has a very high severity risk ranking, and displays an assigned value of 10.
   
@@ -127,7 +127,7 @@ For example, the User Access Management assessment control shown below has a ver
   
 The Compliance Manager assigns a default severity ranking to each control. Risk rankings are calculated based on the following criteria:
   
-- Whether a control prevents incidents from happening (highest ranking), detects incidents that have happened, or corrects the impact of an incident (lowest ranking). In terms of severity ranking, a control that prevents a threat and is mandatory is assigned the highest number of points; controls that are detective or corrective (regardless of whether they're mandatory or discretionary) are assigned the lowest number of points.
+- Whether a control prevents incidents from happening (highest ranking), detects incidents that have happened, or corrects the impact of an incident (lowest ranking). In terms of severity ranking, a mandatory control that prevents a threat is assigned the highest number of points; controls that are detective or corrective (regardless of whether they're mandatory or discretionary) are assigned the lowest number of points.
     
 - Whether a control (after it's been implemented) is mandatory and therefore can't be by-passed by users (for example, users having to reset their password and meet password length and character requirements) or discretionary and can be by-passed by users (for example, business rules that require users to lock their screens when their computers are unattended).
     
@@ -137,13 +137,13 @@ The Compliance Manager assigns a default severity ranking to each control. Risk 
     
 The displayed Compliance Score values for the control are applied  *in their entirety*  to the Total Compliance Score on a pass/fail basis--either the control is implemented and passes the subsequent assessment test or it does not; there is no partial credit for a partial implementation. Only when the control has its **Implementation Status** set to **Implemented** or **Alternative Implementation** and the **Test Result** is set to **Passed** are the assigned points added to the Total Compliance Score. 
   
-Most importantly, the Compliance Score can help you prioritize which controls to focus on for implementation by indicating which controls that have a higher potential risk if there is a failure related to a control. In addition to risk-based prioritization, it is worthwhile noting that where assessment controls are related to other controls (either within the same assessment or in another assessment that is in the same assessment grouping) completing a single control successfully can result in a significant reduction of effort based on the synchronization of control test results.
+Most importantly, the Compliance Score can help you prioritize which controls to focus on for implementation by indicating which controls that have a higher potential risk if there is a failure related to a control. In addition to risk-based prioritization, when assessment controls are related to other controls (either within the same assessment or in another assessment in the same assessment grouping), completing a single control successfully can result in a significant reduction of effort based on the synchronization of control test results.
   
 For example, in the image below we see that the Office 365 - GDPR Assessment is currently 46% assessed, with 51 of 111 control assessments completed for a Total Compliance score of 289 out of a possible 600.
   
 ![Compliance Manager - Assessment Summary](media/595eedae-e3e0-4d1f-8cf5-7c1c9f4fd1e8.png)
   
-Within the assessment GDPR control 7.5.5 is related to 5 other controls (7.4.1, 7.4.3, 7.4.4,.7.4.8, and 7.4.9) each with a moderate to high severity risk rating score of 6 or 8). Using the assessment filter, we have selected all of these controls, making them visible in the assessment view, and can see below that none of them have been assessed. 
+Within the assessment GDPR control 7.5.5 is related to 5 other controls (7.4.1, 7.4.3, 7.4.4, 7.4.8, and 7.4.9) each with a moderate to high severity risk rating score of 6 or 8). Using the assessment filter, we have selected all of these controls, making them visible in the assessment view, and can see below that none of them have been assessed. 
   
 ![Compliance Manager - Assessment View - Filter controls, none assessed](media/b2ae7120-2d7a-4247-b0a9-f5f65433395f.jpg) As those 6 controls are related, the completion of any one them will result in a synchronization of those test results across the related controls within this assessment (just as it will for any related controls in an assessment that is in the same assessment grouping). Upon completion of the implementation and testing of GDPR control 7.5.5, the control detail area refreshes to show that all 6 controls have been assessed, with a corresponding increase in the number of assessed controls to 57 and 51% assessed, and a change in total Compliance Score of +40. 
   
@@ -165,7 +165,7 @@ The Compliance Score, like the Microsoft Secure Score, is similar to other behav
   
 Assessments in Compliance Manager are based on the shared responsibility model for cloud computing. In the shared responsibility model, Microsoft and each customer share responsibility for the protection of the customer's data when that data is stored in our cloud.
   
-As shown in the Office 365 GDPR Assessment below, Microsoft and customers are each responsible for performing a variety of Actions that are designed to satisfy the requirements of the standard or regulation being assessed. To rationalize and understand the required Actions across a variety of standards and regulations, Compliance Manager treats all standards and regulations as if they were control frameworks. Thus, the Actions performed by Microsoft and by customers for each Assessment involve the implementation and validation of various controls.
+As shown in the Office 365 GDPR Assessment below, Microsoft and customers are each responsible for performing a variety of Actions that are designed to satisfy the requirements of the standard or regulation being assessed. To rationalize and understand the required. Actions across a variety of standards and regulations, Compliance Manager treats all standards and regulations as if they were control frameworks. Thus, the Actions performed by Microsoft and by customers for each Assessment involve the implementation and validation of various controls.
   
 ![Compliance Manager - GDPR Assessment](media/123f8126-85b8-4baa-9c4e-c6295cf4a5ca.png)
   
@@ -272,17 +272,17 @@ Based on the control's severity ranking, the control is assigned its compliance 
    
 By prioritizing assessment controls with the highest compliance score values, the organization will be concentrating on the highest risk items and receive proportionally higher positive feedback in the form of more points added to the total compliance score for the assessment for each control assessment completed.
   
-### Summmary of scoring methodology
+### Summary of scoring methodology
   
 The Compliance Score is a core component of the way that Compliance Manager helps organizations understand and manage their compliance. The Compliance Score for an assessment is an expression of the company's compliance with a given standard or regulation as a number, where the higher the score (up to the maximum number of points allocated for the Assessment), the better the company's compliance posture. Understanding the compliance scoring methodology in which assessment controls are assigned risk severity values between 1- 10 (low to high), and how completed control assessments add to the total compliance score is crucial to organizations for prioritizing their actions.
 
 ## Grouping Assessments
 
-When you create a new Assessment, you're prompted to create a new group to assign the Assessment to or assign the Assessment to an existing group. Groups allow you to logically organize Assessments and share common information and workflow tasks between Assessments that have the same or related customer managed controls.
+When you create a new Assessment, you're prompted to create a group to assign the Assessment to or assign the Assessment to an existing group. Groups allow you to logically organize Assessments and share common information and workflow tasks between Assessments that have the same or related customer-managed controls.
   
 For example, you could group Assessments by year or teams, departments, or agencies within your organization or group them by year. Here are some examples of groups and the Assessments they might contain.
   
-- GDPR Assessments - 2018
+- GDPR Assessments — 2018
     
   - Office 365 + GDPR
     
@@ -290,7 +290,7 @@ For example, you could group Assessments by year or teams, departments, or agenc
     
   - Dynamics + GDPR
     
-- Azure Assessments - 2018
+- Azure Assessments — 2018
     
   - Azure + GDPR
     
@@ -313,33 +313,33 @@ For example, you could group Assessments by year or teams, departments, or agenc
   
 These are the requirements for grouping Assessments:
   
-- Group names (also called  *Group IDs*  ) must be unique within your organization. 
+- Group names (also called  *Group IDs) must be unique within your organization. 
     
 - Groups can contain Assessments for the same certification/regulation, but each group can only contain one Assessment for a specific cloud service/certification pair. For example, a group can't contain two Assessments for Office 365 and GDPR. Similarly, a group can contain multiple Assessments for the same cloud service as long as the corresponding certification/regulation for each one is different.
     
-Once an assessment has been added to an assessment grouping, the grouping cannot be changed. You can rename the assessment group, which changes the name of the assessment grouping for all of the assessments associated with that group. You can create a new assessment and a new assessment group and copy information from an existing assessment, which effectively creates a duplicate of that assessment in a different assessment group. Archiving an assessment breaks the relationship between that assessment and the assessment group; any further updates to other related assessments are no longer reflected in the archived assessment.
+Once an assessment has been added to an assessment grouping, the grouping cannot be changed. You can rename the assessment group, which changes the name of the assessment grouping for all of the assessments associated with that group. You can create an assessment and a new assessment group and copy information from an existing assessment, which effectively creates a duplicate of that assessment in a different assessment group. Archiving an assessment breaks the relationship between that assessment and the assessment group. Any further updates to other related assessments are no longer reflected in the archived assessment.
   
-As previous explained, one key advantage of using groups is that when two different Assessments in the same group share the same customer managed control (and therefore the customer actions would be the same for each control), then the completion of implementation details, testing information, and status for the control in one Assessment would be synchronized to the same control in any other Assessment in the group. In other words, if Assessments share the same control and those Assessments are in the same group, you'd only have to manage the assessment process for the control in one Assessment. The results for that control will be automatically synchronized to other Assessments. For example, ISO 27001 and ISO 27018 both have a control related to password policies. If the Test Status for the control is set to "Passed" in one Assessment, the control will be updated (and marked as "Passed") in the other Assessment, as long as both assessments are part of the same Assessment Group.
+As previous explained, one key advantage of using groups is that when two different Assessments in the same group share the same customer-managed control (and therefore the customer actions would be the same for each control), then the completion of implementation details, testing information, and status for the control in one Assessment would be synchronized to the same control in any other Assessment in the group. In other words, if Assessments share the same control and those Assessments are in the same group, you'd only have to manage the assessment process for the control in one Assessment. The results for that control will be automatically synchronized to other Assessments. For example, ISO 27001 and ISO 27018 both have a control related to password policies. If the Test Status for the control is set to "Passed" in one Assessment, the control is updated (and marked as "Passed") in the other Assessment, as long as both assessments are part of the same Assessment Group.
   
-As an example of this, consider these two related assessment controls, each having to do with encryption of data on public networks, control 6.10.1.2 in the Office 365 - GDPR assessment, and control SC-13 in the Office 365 - NIST 800-53 assessment. These are related assessment controls, in two different assessments, both in the Default Group; initially, neither assessment has completed any customer control assessments, as is displayed on the Compliance Manager Dashboard that shows these two Assessments.
+As an example of this, consider these two related assessment controls, each having to do with encryption of data on public networks, control 6.10.1.2 in the Office 365 — GDPR assessment, and control SC-13 in the Office 365 — NIST 800-53 assessment. These are related assessment controls, in two different assessments, both in the Default Group. Initially, neither assessment has completed any customer control assessments, as is displayed on the Compliance Manager Dashboard that shows these two Assessments.
   
-![Compliance Manager Dashboard - grouped assessments - before](media/dc0126a3-415c-4fbe-a020-1806dd1caebd.png)
+![Compliance Manager Dashboard — grouped assessments — before](media/dc0126a3-415c-4fbe-a020-1806dd1caebd.png)
   
-By clicking the **Office 365 - GDPR** assessment, and using the filter controls to view GDPR control 6.10.1.2, we see that NIST 800-53 control SC-13 is listed as a related control.
+By clicking the **Office 365 — GDPR** assessment, and using the filter controls to view GDPR control 6.10.1.2, we see that NIST 800-53 control SC-13 is listed as a related control.
   
-![Compliance Manager Assessment - shared controls](media/aafb106e-0abc-4918-8038-de11cf326dfe.png)
+![Compliance Manager Assessment — shared controls](media/aafb106e-0abc-4918-8038-de11cf326dfe.png)
   
  Here we show the completion of the implementation and testing of GDPR control 6.10.1.2. 
   
-![Compliance Manager Assessment control GDPR 6.10.1.2 - passed](media/ee9e83b6-9d51-4b3b-85eb-96bec0fef2e1.png)
+![Compliance Manager Assessment control GDPR 6.10.1.2 — passed](media/ee9e83b6-9d51-4b3b-85eb-96bec0fef2e1.png)
   
 By navigating to the related control in the grouped assessment, we see that NIST 800-53 SC-13 has also been marked as completed with the same date and time, with no additional implementation or testing effort.
   
-![Compliance Manager assessment - NIST 800-53 SC(13) completed](media/b5933592-db5a-4fdd-9be2-bba777646a88.png)
+![Compliance Manager assessment — NIST 800-53 SC(13) completed](media/b5933592-db5a-4fdd-9be2-bba777646a88.png)
   
-Back at the Dashboard, we can see that each assessment has 1 control assessment completed and that the total Compliance Score for each assessment has increased by 8 (the compliance score value of that shared control).
+Back at the Dashboard, we can see that each assessment has one control assessment completed and that the total Compliance Score for each assessment has increased by 8 (the compliance score value of that shared control).
   
-![Compliance Manager Dashboard - grouped assessment progress synchronization](media/727f1203-b98d-4a03-a7af-e9236f4c5534.png)
+![Compliance Manager Dashboard — grouped assessment progress synchronization](media/727f1203-b98d-4a03-a7af-e9236f4c5534.png)
 
 ## Administrative functions
 
@@ -352,7 +352,7 @@ There are specific administrative functions that are only available to the tenan
 
 Each Compliance Manager role has slightly different permissions. You can view the permissions assigned to each role, see which users are in which roles, and add or remove users from that role through the Service Trust Portal by selecting the **Admin** menu item, and then choosing **Settings**. 
   
-![STP Admin menu - Settings selected](media/65a82b1b-d462-452f-988b-7e4263bd638e.png)
+![STP Admin menu — Settings selected](media/65a82b1b-d462-452f-988b-7e4263bd638e.png)
   
 To add or remove users from Compliance Manager roles.
   
@@ -364,15 +364,15 @@ To add or remove users from Compliance Manager roles.
     
 4. In the **Select Role** drop-down list, click the role that you want to manage. 
     
-5. Users added to the each role are listed on the **Select Role** page. 
+5. Users added to each role are listed on the **Select Role** page. 
     
 6. To add users to this role, click **Add**. In the **Add Users** dialog, click the user field. You can scroll through the list of available users or begin typing the user name to filter the list based on your search term. Click the user to add that account to the **Add Users** list to be provisioned with that role. If you would like to add multiple users concurrently, begin typing a user name to filter the list, and then click the user to add to the list. Click **Save** to provision the selected role to these users. 
     
-    ![Compliance Manager - provision roles - add users](media/2f386f82-2bf8-4e95-ab41-1724b752b508.png)
+    ![Compliance Manager — provision roles — add users](media/2f386f82-2bf8-4e95-ab41-1724b752b508.png)
   
 7. To remove users from this role, select the user(s) and click **Delete**. 
     
-    ![Compliance Manager - Provision Roles - remove user](media/17004def-604f-471d-a54d-f678fcc01c1e.png)
+    ![Compliance Manager — Provision Roles — remove user](media/17004def-604f-471d-a54d-f678fcc01c1e.png)
  
 ## User Privacy settings
 
@@ -386,31 +386,31 @@ Certain regulations require that an organization must be able to delete user his
 
 - [Delete user data history](#delete-user-data-history)
     
-![Compliance Manager Admin - User Privacy Settings functions](media/067d6c6a-712a-4dc2-9b99-de2fa4417dc3.png)
+![Compliance Manager Admin — User Privacy Settings functions](media/067d6c6a-712a-4dc2-9b99-de2fa4417dc3.png)
   
 ### Search for a user
 
 To search for a user account:
   
-1. Enter the user email address by typing in the alias (the information to the left of the @ symbol) and choosing the domain name by clicking on the domain suffix list on the right. If this is tenant with multiple registered domains, you can double check the email address domain name suffix to ensure that it is correct.
+1. Enter the user email address by typing in the alias (the information to the left of the @ symbol) and choosing the domain name by clicking the domain suffix list on the right. If this is tenant with multiple registered domains, you can double check the email address domain name suffix to ensure that it is correct.
     
 2. When you have the username correctly entered, click **Search**. 
     
 3. If the user account is not found, the error message 'User not found' will be displayed on the page. Check the user's email address information, make corrections as necessary and click **Search** to try again. 
     
-4. If user account is found, the text of the button will change from **Search** to **Clear**, which indicates that the returned user account is the operating context for the additional functions that will be displayed below, that running those functions will apply to this user account. 
+4. If user account is found, the text of the button changes from **Search** to **Clear**, which indicates that the returned user account is the operating context for the additional functions that will be displayed below, that running those functions will apply to this user account. 
     
 5. To clear search results and search for a different user, click **Clear**. 
     
 ### Export a report of account data history
 
-Once the user account has been identified, you may wish to generate a report of dependencies that exist linked to this account. This information will allow you to reassign open action items or ensure access to previously uploaded evidence. 
+Once the user account has been identified, you may wish to generate a report of dependencies that exist linked to this account. This information allows you to reassign open action items or ensure access to previously uploaded evidence. 
   
  To generate and export a report:
   
-1. Click **Export** to generate and download a report of the Compliance Manager control action items currently assigned to the returned user account, as well as the list of documents uploaded by that user. If there are no assigned actions or uploaded documents, an error message will state "No data for this user". 
+1. Click **Export** to generate and download a report of the Compliance Manager control action items currently assigned to the returned user account and the list of documents uploaded by that user. If there are no assigned actions or uploaded documents, an error message will state "No data for this user". 
     
-2. The report downloads in the background of the active browser window - if you don't see a download popup you want to check your browser download history.
+2. The report downloads in the background of the active browser window — if you don't see a download popup you want to check your browser download history.
     
 3. Open the document to review the report data.
     
@@ -427,9 +427,9 @@ This function enables an organization to remove any active or outstanding depend
     
 2. Select **Replace** to reassign all control action items from the returned user to the newly selected user. 
     
-3. A confirmation dialog box appear stating "This will reassign all control action items from the current user to the selected user. This action cannot be undone. Are you sure you want to continue?"
+3. A confirmation dialog box appears stating "This will reassign all control action items from the current user to the selected user. This action cannot be undone. Are you sure you want to continue?"
     
-4. To continue click **OK**,, otherwise click **Cancel**. 
+4. To continue click **OK**, otherwise click **Cancel**. 
     
 > [!NOTE]
 > All action items (both active and completed) will be assigned to the newly selected user. However, this action does not affect the document upload history; any documents uploaded by the previously assigned user will still show the date/time and name of the previously assigned user. 
@@ -464,13 +464,13 @@ This sets control action items to 'unassigned' for all action items assigned to 
 
 Compliance Manager provides you with tools to assign, track, and record compliance and assessment-related activities, and to help your organization cross team barriers to achieve your organization's compliance goals.
   
-![Compliance Manager Dashboard - top menu - updated Admin menu](media/134d7577-cd70-4124-bcfd-d3feb248952b.png)
+![Compliance Manager Dashboard — top menu — updated Admin menu](media/134d7577-cd70-4124-bcfd-d3feb248952b.png)
 
 ## Accessing Compliance Manager
 
 You access Compliance Manager from the Service Trust Portal. Anyone with a Microsoft account or Azure Active Directory organizational account can access Compliance Manager.
   
-![Compliance Manager - Accessing Compliance Manager from STP menu](media/14be4cac-2380-49bc-9b36-210da8cafdfa.png)
+![Compliance Manager — Accessing Compliance Manager from STP menu](media/14be4cac-2380-49bc-9b36-210da8cafdfa.png)
   
 1. Go to [https://servicetrust.microsoft.com](https://servicetrust.microsoft.com/).
     
@@ -488,9 +488,9 @@ You access Compliance Manager from the Service Trust Portal. Anyone with a Micro
   
 ## Viewing action items
 
-Compliance Manager provides a convenient view of all your assigned control assessment action items, enabling you to quickly and easily take action on them. You can view all action items or select the action items that correspond with a specific certification by clicking on the tab associated with that assessment. For instance, in the image below, the GDPR tab has been selected, showing controls that related to the GDPR assessment.
+Compliance Manager provides a convenient view of all your assigned control assessment action items, enabling you to quickly and easily take action on them. You can view all action items or select the action items that correspond with a specific certification by clicking the tab associated with that assessment. For instance, in the image below, the GDPR tab has been selected, showing controls that related to the GDPR assessment.
   
-![Compliance Manager - Action Items list multiple tabs GDPR selected](media/ba960f5c-becb-4d95-a000-d08ec77b7b46.png)
+![Compliance Manager — Action Items list multiple tabs GDPR selected](media/ba960f5c-becb-4d95-a000-d08ec77b7b46.png)
   
 To view your action items:
   
@@ -508,27 +508,27 @@ To add an Assessment to Compliance Manager:
     
 2. In the **Add an Assessment** window, you can create a new group to add the Assessment to or you can add it to an existing group (the built-in group is named "Initial Group".) Depending on the option you choose, either type the name of a new group or select an existing group from the drop-down list. For more information, see [Grouping Assessments](#grouping-assessments).
     
-    If you create a new group, you also have the option to copy information from an existing group to the new Assessment. That means any information that was added to the Implementation Details and Test Plan and Management Response fields of customer managed controls from Assessments in the group that you're copying from are copied to the same (or related) customer managed controls in the new Assessment. If you're adding a new Assessment to an existing group, common information from Assessments in that group will be copied to the new Assessment. For more information, see [Copying information from existing Assessments](#copying-information-from-existing-assessments).
+    If you create a group, you also have the option to copy information from an existing group to the new Assessment. That means any information that was added to the Implementation Details and Test Plan and Management Response fields of customer-managed controls from Assessments in the group that you're copying from are copied to the same (or related) customer-managed controls in the new Assessment. If you're adding a new Assessment to an existing group, common information from Assessments in that group will be copied to the new Assessment. For more information, see [Copying information from existing Assessments](#copying-information-from-existing-assessments).
     
 3. Click **Next**, and do the following:
     
-    a. Choose a Microsoft cloud service to assess for compliance from the **Select a product** drop down list. 
+    a. Choose a Microsoft cloud service to assess for compliance from the **Select a product** drop-down list. 
     
-    b. Choose a certification to assess the selected cloud service against from the **Select a certification** drop down list. 
+    b. Choose a certification to assess the selected cloud service against from the **Select a certification** drop-down list. 
     
 4. Click **Add to Dashboard** to create the Assessment; the assessment will be added to the Compliance Manager dashboard as a new tile at the end of the list of existing tiles. 
     
-    The **Assessment Tile** on the Compliance Manager dashboard, displays the assessment grouping, the name of the assessment (automatically created as a combination of the Service name and the certification selected), the date it was created and when it was last modified, the Total Compliance Score (which is the sum of all of the assigned control risk values that have been implemented, tested and passed), and progress indicators along the bottom that show the number of controls that have been assessed. 
+    The **Assessment Tile** on the Compliance Manager dashboard, displays the assessment grouping, the name of the assessment (automatically created as a combination of the Service name and the certification selected), the date it was created and when it was last modified, the Total Compliance Score (which is the sum of all of the assigned control risk values that have been implemented, tested, and passed), and progress indicators along the bottom that show the number of controls that have been assessed. 
     
 5. Click the Assessment name to open it, and view the details of the Assessment.
     
-6. Click on the **Actions** menu to view your assigned action items, rename the assessment group, export the assessment report, or archive the assessment. 
+6. Click the **Actions** menu to view your assigned action items, rename the assessment group, export the assessment report, or archive the assessment. 
     
-    ![Compliance Manager - Assessment Tile](media/abf35c11-9757-45c1-aa14-91178f67a18c.png)
+    ![Compliance Manager — Assessment Tile](media/abf35c11-9757-45c1-aa14-91178f67a18c.png)
 
 ## Copying information from existing Assessments
 
-As previously explained, when you create a new assessment group, you have the option to copy information from Assessments in an existing group to the new Assessment in the new group. This allows you to apply the assessment and testing work that's been completed to the same customer managed controls in the new Assessment. For example, if you have a group for all GDPR-related Assessments in your organization, you can copy common information from existing assessment work when add a new Assessment to the group.
+As previously explained, when you create an assessment group, you have the option to copy information from Assessments in an existing group to the new Assessment in the new group. This allows you to apply the assessment and testing work that's been completed to the same customer-managed controls in the new Assessment. For example, if you have a group for all GDPR-related Assessments in your organization, you can copy common information from existing assessment work when add a new Assessment to the group.
   
 You can copy the following information from customer to a new Assessment:
   
@@ -538,13 +538,13 @@ You can copy the following information from customer to a new Assessment:
     
 - Implementation details and test plan information.
     
-Similarly, information from shared customer managed controls within the same Assessment group is synchronized. And information in related customer managed controls within the same Assessment is also synchronized.
+Similarly, information from shared customer-managed controls within the same Assessment group is synchronized. And information in related customer-managed controls within the same Assessment is also synchronized.
 
 ## Viewing Assessments
 
-1. Locate the Assessment Tile corresponding to the assessment you wish to view, then click the assessment name to open it and view the Microsoft and customer managed controls associated with the Assessment, along with a list of the cloud services that are in-scope for the Assessment. Here's an example of the Assessment for Office 365 and GDPR.
+1. Locate the Assessment Tile corresponding to the assessment you wish to view, then click the assessment name to open it and view the Microsoft and customer-managed controls associated with the Assessment, along with a list of the cloud services that are in-scope for the Assessment. Here's an example of the Assessment for Office 365 and GDPR.
     
-    ![Compliance Manager Assessment View - fullscreen with callouts](media/169a02eb-e805-412d-b9e7-89561aa7ad1d.png)
+    ![Compliance Manager Assessment View — fullscreen with callouts](media/169a02eb-e805-412d-b9e7-89561aa7ad1d.png)
   
 1. This section shows the Assessment summary information, including the name of the Assessment Grouping, Product, Assessment name, number of Assess controls
     
@@ -552,15 +552,15 @@ Similarly, information from shared customer managed controls within the same Ass
     
 3. This section shows the individual cloud services that are in-scope for the assessment.
     
-4. This section contains Microsoft managed controls. Related controls are organized by control family. Click a control family to expand it and display individual controls.
+4. This section contains Microsoft-managed controls. Related controls are organized by control family. Click a control family to expand it and display individual controls.
     
-5. This section contains customer managed controls, which are also organized by control family. Click a control family to expand it and display individual controls.
+5. This section contains customer-managed controls, which are also organized by control family. Click a control family to expand it and display individual controls.
     
-6. Displays the total number of controls in the control family, and how many of those controls have been assessed. A key capability of Compliance Manager is tracking your organization's progress on assessing the customer managed controls. For more information, see the [Understanding the Compliance Score](#understanding-the-compliance-score) section. 
+6. Displays the total number of controls in the control family, and how many of those controls have been assessed. A key capability of Compliance Manager is tracking your organization's progress on assessing the customer-managed controls. For more information, see the [Understanding the Compliance Score](#understanding-the-compliance-score) section. 
 
 ## Managing the assessment process
 
-The creator of an Assessment is initially the only Assessment User. For each customer managed control, you can assign an Action Item to a person in your organization so that person becomes an Assessment User who can perform the recommended Customer Actions, and gather and upload evidence. When you assign an Action Item, you can choose to send an email to the person that contains details including the recommended Customer Actions and the Action Item priority. The email notification includes a link to the **Action Items** dashboard, which lists all Action Items assigned to that person. 
+The creator of an Assessment is initially the only Assessment User. For each customer-managed control, you can assign an Action Item to a person in your organization so that person becomes an Assessment User who can perform the recommended Customer Actions, and gather and upload evidence. When you assign an Action Item, you can choose to send an email to the person that contains details including the recommended Customer Actions and the Action Item priority. The email notification includes a link to the **Action Items** dashboard, which lists all Action Items assigned to that person. 
   
 Here's a list of tasks that you can perform using the workflow features of Compliance Manager.
   
@@ -568,15 +568,15 @@ Here's a list of tasks that you can perform using the workflow features of Compl
   
 1. **Use the Filter Options to find specific assessment controls** - Compliance Manager provides **Filter Options**, giving you highly granular selection criteria for displaying assessment controls, helping you to precisely target specific areas of your compliance efforts. 
     
-    Click on the funnel icon on the right hand side of the page to show or hide the **Filter Options** controls. These controls allow you to specify filter criteria, and only the assessment controls that fit those criteria will be displayed below. ![Compliance Manager Assessments filter controls](media/d44e1b4b-d928-4778-8a3a-6231edde9ca0.png)
+    Click the funnel icon on the right-hand side of the page to show or hide the **Filter Options** controls. These controls allow you to specify filter criteria, and only the assessment controls that fit those criteria will be displayed below. ![Compliance Manager Assessments filter controls](media/d44e1b4b-d928-4778-8a3a-6231edde9ca0.png)
   
-    - **Articles** - filters on the article name and returns the assessment controls associated to that article. For instance, typing in "Article (5)" returns a selection list of articles whose name includes that string, i.e. Article (5)(1)(a), Article (5)(1)(b), Article (5)(1)(c), etc. Selecting Article (5)(1)(c) will return the controls associated with Article (5)(1)(c). This is multiselect field that uses an OR operator with multiple values -- for instance, if you select Article (5)(1)(a) and then add Article (5)(1)(c), the filter will return controls associated with either Article (5)(1)(a) or Article (5)(1)(c). 
+    - **Articles** - filters on the article name and returns the assessment controls associated to that article. For instance, typing in "Article (5)" returns a selection list of articles whose name includes that string, i.e. Article (5)(1)(a), Article (5)(1)(b), Article (5)(1)(c), etc. Selecting Article (5)(1)(c) will return the controls associated with Article (5)(1)(c). This is multiselect field that uses an OR operator with multiple values — for instance, if you select Article (5)(1)(a) and then add Article (5)(1)(c), the filter will return controls associated with either Article (5)(1)(a) or Article (5)(1)(c). 
     
-      ![Compliance Manager Assessment view - Filter on Article Name](media/8b0507a0-589d-484a-bc60-80a3debe3ddb.png)
+      ![Compliance Manager Assessment view — Filter on Article Name](media/8b0507a0-589d-484a-bc60-80a3debe3ddb.png)
   
-    - **Controls** - returns the list of controls whose names fit the filter, i.e. typing in 7.3 returns a selection list of items like 7.3.1, 7.3.4, 7.3.5, etc. This is multiselect field that uses an OR operator with multiple values -- for instance, if you select 7.3.1 and then add 7.3.4, the filter will return controls associated with either 7.3.1 or 7.3.4. 
+    - **Controls** - returns the list of controls whose names fit the filter, i.e. typing in 7.3 returns a selection list of items like 7.3.1, 7.3.4, 7.3.5, etc. This is multiselect field that uses an OR operator with multiple values — for instance, if you select 7.3.1 and then add 7.3.4, the filter returns controls associated with either 7.3.1 or 7.3.4. 
     
-      ![Compliance Manager Assessment view - filter control multiselect](media/c4fc25e8-2376-4f2d-b605-f9c3d90413bf.png)
+      ![Compliance Manager Assessment view — filter control multiselect](media/c4fc25e8-2376-4f2d-b605-f9c3d90413bf.png)
   
     - **Assigned Users** - returns the list of controls who are assigned to the selected user. 
     
@@ -592,17 +592,17 @@ Here's a list of tasks that you can perform using the workflow features of Compl
     
 3. **Assign an Action Item to a user** - You can assign an Action Item to a person to implement the requirements of a certification/regulation, or to test, verify, and document your organization's implementation requirements. When you assign an Action Item, you can choose to send an email to the person that contains details including the recommended Customer Actions and the Action Item priority. You can also unassign or reassign an Action Item to a different person. 
     
-4. **Manage documents** - Customer managed controls also have a place to manage documents that are related to performing implementation tasks and for performing testing and validation tasks. Anyone with permissions to edit data in Compliance Manager can upload documents by clicking **Manage Documents**. After a documented has been uploaded, you can click **Manage Documents** to view and download files. 
+4. **Manage documents** - Customer-managed controls also have a place to manage documents that are related to performing implementation tasks and for performing testing and validation tasks. Anyone with permissions to edit data in Compliance Manager can upload documents by clicking **Manage Documents**. After a documented has been uploaded, you can click **Manage Documents** to view and download files. 
     
-5. **Provide implementation and testing details** - Every customer managed control has an editable field where users can add implementation details that document the steps taken by your organization to meet the requirements of the certification/regulation, and to validate and document how your organization meets those requirements.
+5. **Provide implementation and testing details** - Every customer-managed control has an editable field where users can add implementation details that document the steps taken by your organization to meet the requirements of the certification/regulation, and to validate and document how your organization meets those requirements.
     
 6. **Set Status** - Set the Status for each item as part of the assessment process. Available status values are **Implemented**, **Alternative Implementation**, **Planned**, and **Not in Scope**. 
     
-7. **Enter test date and test result** - The person with the Compliance Manager Assessor role can verify that proper testing performed, review the implementation details, test plan, test results, and any uploaded evidence, and then set the Test Date and Test Result. Available test result values are **Passed**, **Failed-Low Risk**, **Failed-Medium Ris** **k**, and **Failed-High Risk**. 
+7. **Enter test date and test result** - The person with the Compliance Manager Assessor role can verify that proper testing performed, review the implementation details, test plan, test results, and any uploaded evidence, and then set the Test Date and Test Result. Available test result values are **Passed**, **Failed-Low Risk**, **Failed-Medium Risk**, and **Failed-High Risk**. 
 
 ## Managing action items
 
-The people involved in the assessment process in your organization can use Compliance Manager to review the customer managed controls from all Assessments for which they are users. When a user signs in to Compliance Manager and opens the **Action Items** dashboard, a list of Action Items assigned to them is displayed. Depending on the Compliance Manager role assigned to the user, they can provide implementation or test details, update the Status, or assign Action Items. 
+The people involved in the assessment process in your organization can use Compliance Manager to review the customer-managed controls from all Assessments for which they are users. When a user signs in to Compliance Manager and opens the **Action Items** dashboard, a list of Action Items assigned to them is displayed. Depending on the Compliance Manager role assigned to the user, they can provide implementation or test details, update the Status, or assign Action Items. 
   
 As certification controls are generally implemented by one person and tested by another, the control action item can be initially assigned to one person for implementation, and once that is complete, that person can reassign the control action item to the next person for control testing and uploading of evidence. This assignment/reassignment of control actions can be performed by any users who have a Compliance Manager role with sufficient permissions, allowing for central management of control assignments, or decentralized routing of control action items, from implementer to tester as appropriate.
   
@@ -612,7 +612,7 @@ To assign an action item:
     
 2. You can click **Filter** and use the filter controls to find the specific assessment control you wish to assign, or 
     
-3. Scroll down to the Customer Managed Controls section, expand the control family, and scroll through the list of control until you have located the assessment control to be assigned
+3. Scroll down to the Customer-Managed Controls section, expand the control family, and scroll through the list of control until you have located the assessment control to be assigned
     
 4. Under the **Assigned User** column, click **Assign**. 
     
@@ -630,7 +630,7 @@ The notes that are associated with the action item are persisted in the notes se
 
 ## Exporting information from an Assessment
 
-You can export an Assessment to an Excel file, which can be reviewed by compliance stakeholders in your organization, and provided to auditors and regulators. This assessment report is a snapshot of the assessment as of the date and time that the report is created, and it contains the details of both the Microsoft-managed controls and the customer managed controls for that assessment, including control implementation status, control test date and test results, and provides links to the uploaded evidence documents. It is recommended that you export the assessment report prior to archiving an assessment, as archived assessments do not retain their links to uploaded documents.
+You can export an Assessment to an Excel file, which can be reviewed by compliance stakeholders in your organization, and provided to auditors and regulators. This assessment report is a snapshot of the assessment as of the date and time that the report is created, and it contains the details of both the Microsoft-managed controls and the customer-managed controls for that assessment, including control implementation status, control test date and test results, and provides links to the uploaded evidence documents. It is recommended that you export the assessment report prior to archiving an assessment, as archived assessments do not retain their links to uploaded documents.
   
 To export an Assessment report:
   
@@ -638,7 +638,7 @@ To export an Assessment report:
 
   Or
     
-- If you are viewing the Assessment details page, click on the **Export to Excel** button, which is located in the upper right hand corner of the page above the assessment's Compliance Score.
+- If you are viewing the Assessment details page, click on the **Export to Excel** button, which is located in the upper right-hand corner of the page above the assessment's Compliance Score.
     
 The assessment report will be downloaded in your browser session. If you don't see a popup informing you of this, you may wish to check your browser's downloads folder.
 
@@ -679,7 +679,7 @@ By default, Search returns Document results, and you can use the Filter By dropd
   
 ![Service Trust Portal - Search on Documents with filter applied](media/86b754e1-c63c-4514-89ac-d014bf334140.png)
   
-Click on the Compliance Manager link to display Search results for Compliance Manager assessment controls. The listed search results show the date the assessment was created, the name of the assessment grouping, the applicable cloud service, and whether the controls is Microsoft or Customer Managed.
+Click on the Compliance Manager link to display Search results for Compliance Manager assessment controls. The listed search results show the date the assessment was created, the name of the assessment grouping, the applicable cloud service, and whether the controls are Microsoft or Customer Managed.
   
 ![Service Trust Portal - Search on Compliance Manager Controls](media/bafb811a-68ce-40b5-ad16-058498fe5439.png)
   
@@ -693,15 +693,15 @@ Service Trust Portal enables you to view the page content in different languages
 ![Service Trust Portal - Localized content options](media/b50c677e-a886-4267-9eca-915d880ead7a.png)
 
 
-## Change log for Customer Managed Controls
+## Change log for Customer-Managed Controls
 
-Compliance Manager is designed to be regularly updated to keep pace with changes in regulatory requirements, as well as changes in our cloud services. These updates include changes to the Customer Managed Controls. A Change Log is provided to help you understand the impact of these changes, including the details of the content being added or changed, and guidance as to what effect the changes have on existing Assessments. Generally, there are two types of changes:
+Compliance Manager is designed to be regularly updated to keep pace with changes in regulatory requirements, as well as changes in our cloud services. These updates include changes to the Customer-Managed Controls. A Change Log is provided to help you understand the impact of these changes, including the details of the content being added or changed, and guidance as to what effect the changes have on existing Assessments. Generally, there are two types of changes:
   
 - A **Major** change is a significant change to a Customer Action, such as the addition or removal of a control or specific numbered steps, or a change in the guidance around responsibilities, recommendations, or evidence. For Major changes, we recommend that you re-evaluate your implementation and/or assessment of the affected control.
     
 - A **Minor** change is an insignificant change to a Customer Actions, such as fixing a typo or formatting issues, or updating or correcting hyperlinks. Minor changes generally do not require the control to be re-evaluated; however, we do recommend that you review the updated Customer Action.
   
-### Office 365 Customer Managed Controls - Change Log for July 2018
+### Office 365 Customer-Managed Controls - Change Log for July 2018
 
 |**Control ID**|**Assessment**|**Type of change**|**Description of change**|**Recommended actions for customers**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
@@ -711,7 +711,7 @@ Compliance Manager is designed to be regularly updated to keep pace with changes
 45 C.F.R.  § 164.316(b)(2)(iii)| Office 365: HIPAA|Major|Added HITECH control to HIPAA Assessment for Office 365|Review the added control and recommended Customer Actions<br/>|
 |
 
-### Office 365 Customer Managed Controls - Change Log for April 2018
+### Office 365 Customer-Managed Controls - Change Log for April 2018
 
 |**GDPR**|**HIPAA**|**ISO 27001**|**ISO 27018**|**NIST 800-53**|**NIST 800-171**|**Type of change**|**Description of change**|**Recommended actions for customers**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|

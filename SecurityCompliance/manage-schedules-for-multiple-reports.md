@@ -2,8 +2,7 @@
 title: "Manage schedules for multiple reports in the Security &amp; Compliance Center"
 ms.author: deniseb
 author: denisebmsft
-manager: laurawi
-ms.date: 6/1/2018
+manager: dansimp
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp

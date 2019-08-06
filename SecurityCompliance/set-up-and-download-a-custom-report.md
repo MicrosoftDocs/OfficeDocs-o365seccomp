@@ -2,7 +2,7 @@
 title: "Set up and download a custom report in the Security &amp; Compliance Center"
 ms.author: deniseb
 author: denisebmsft
-manager: laurawi
+manager: dansimp
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp

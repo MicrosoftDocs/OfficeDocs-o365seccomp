@@ -3,7 +3,7 @@ title: "Deploy an isolated SharePoint Online team site"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 05/14/2018
+ms.date: 07/30/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -63,9 +63,9 @@ You need to create the following access groups in Azure AD:
     
 3. On the **Groups - All groups** blade, click **+ New group**.
     
-4. On the **Group** blade:
+4. On the **New Group** blade:
     
-  - Select **Office 365** in **Group type**.
+  - Select **Security** in **Group type**.
     
   - Type the group name in **Name**.
     
@@ -94,11 +94,11 @@ In this step, do the following:
     
 3. Add the list of users from step 3 to the site viewers access group
     
-If you are managing user accounts and groups through Windows Server AD, add users to the appropriate access groups using your normal Windows Server AD user and group management procedures and wait for synchronization with your Office 365 subscription.
+If you are managing user accounts and groups through Active Directory Domain Services (AD DS), add users to the appropriate access groups using your normal AD DS user and group management procedures and wait for synchronization with your Office 365 subscription.
   
-If you are managing user accounts and groups through Office 365, you can use the Office Admin center or PowerShell. If you have duplicate group names for any of the access groups, you should use the Office Admin center.
+If you are managing user accounts and groups through Office 365, you can use the Microsoft 365 admin center or PowerShell. If you have duplicate group names for any of the access groups, you should use the Microsoft 365 admin center.
   
-For the Office Admin center, sign in with a user account that has been assigned the User Account Administrator or Company Administrator role and use Groups to add the appropriate user accounts and groups to the appropriate access groups.
+For the Microsoft 365 admin center, sign in with a user account that has been assigned the User Account Administrator or Company Administrator role and use Groups to add the appropriate user accounts and groups to the appropriate access groups.
   
 For PowerShell, first [Connect with the Azure Active Directory PowerShell for Graph module](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module).
   
@@ -139,7 +139,7 @@ The results should be the following:
     
 - The site viewers Azure AD group contains the user accounts or groups that can only view the site contents
     
-Validate the list of group members for each access group with the Office Admin center or with the following PowerShell command block:
+Validate the list of group members for each access group with the Microsoft 365 admin center or with the following PowerShell command block:
   
 ```
 $grpName="<display name of the access group>"

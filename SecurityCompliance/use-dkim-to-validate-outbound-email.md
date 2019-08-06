@@ -2,11 +2,11 @@
 title: "Use DKIM for email in your custom domain in Office 365"
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
+manager: dansimp
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+localization_priority: Priority
 search.appverid:
 - MET150
 ms.assetid: 56fee1c7-dc37-470e-9b09-33fff6d94617
@@ -112,19 +112,19 @@ For example, if you have an initial domain of cohovineyardandwinery.onmicrosoft.
   
 ```
 Host name:			selector1._domainkey
-Points to address or value:	**selector1-cohovineyard-com**._domainkey.cohovineyardandwinery.onmicrosoft.com
+Points to address or value:	selector1-cohovineyard-com._domainkey.cohovineyardandwinery.onmicrosoft.com
 TTL:				3600
 
 Host name:			selector2._domainkey
-Points to address or value:	**selector2-cohovineyard-com**._domainkey.cohovineyardandwinery.onmicrosoft.com
+Points to address or value:	selector2-cohovineyard-com._domainkey.cohovineyardandwinery.onmicrosoft.com
 TTL:				3600
 
 Host name:			selector1._domainkey
-Points to address or value:	**selector1-cohowinery-com**._domainkey.cohovineyardandwinery.onmicrosoft.com 
+Points to address or value:	selector1-cohowinery-com._domainkey.cohovineyardandwinery.onmicrosoft.com 
 TTL:				3600
  
 Host name:			selector2._domainkey
-Points to address or value:	**selector2-cohowinery-com**._domainkey.cohovineyardandwinery.onmicrosoft.com 
+Points to address or value:	selector2-cohowinery-com._domainkey.cohovineyardandwinery.onmicrosoft.com 
 TTL:				3600
 ```
 
@@ -229,7 +229,7 @@ Disabling the signing policy does not completely disable DKIM. After a period of
 ## Default behavior for DKIM and Office 365
 <a name="DefaultDKIMbehavior"> </a>
 
-If you do not enable DKIM, Office 365 automatically creates a 1024-bit DKIM public key for your custom domain and the associated private key which we store internally in our datacenter. By default, Office 365 uses a default signing configuration for domains that do not have a policy in place. This means that if you do not set up DKIM yourself, Office 365 will use its default policy and keys it creates in order to enable DKIM for your domain.
+If you do not enable DKIM, Office 365 automatically creates a 1024-bit DKIM public key for your default domain and the associated private key which we store internally in our datacenter. By default, Office 365 uses a default signing configuration for domains that do not have a policy in place. This means that if you do not set up DKIM yourself, Office 365 will use its default policy and keys it creates in order to enable DKIM for your domain.
   
 Also, if you disable DKIM signing after enabling it, after a period of time, Office 365 will automatically apply the Office 365 default policy for your domain.
   

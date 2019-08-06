@@ -2,7 +2,7 @@
 title: "Create block sender lists in Office 365"
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
+manager: dansimp
 ms.date: 5/6/2019
 audience: ITPro
 ms.topic: article
@@ -43,6 +43,8 @@ The steps to set this up are different between [Outlook Web App](https://support
 ## Use Anti-Spam Policy Sender/Domain Block lists
 
 When multiple users are being impacted, the scope is wider, and you need to use a company-wide sender/domain block list Anti-Spam policy. The detailed steps can be found in [Configure your spam filter policies](https://docs.microsoft.com/en-us/office365/securitycompliance/configure-your-spam-filter-policies) document. Any messages blocked through this method will follow the spam action as configured in the policy.
+
+The maximum limit for these lists is approximately 1000 entries.
 
 ## Use Exchange Transport Rules (ETRs) to Block specific senders
 

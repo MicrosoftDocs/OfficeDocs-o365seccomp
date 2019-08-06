@@ -2,7 +2,7 @@
 title: "View reports for Office 365 Advanced Threat Protection"
 ms.author: deniseb
 author: denisebmsft
-manager: laurawi
+manager: dansimp
 ms.date: 05/21/2019
 audience: ITPro
 ms.topic: article

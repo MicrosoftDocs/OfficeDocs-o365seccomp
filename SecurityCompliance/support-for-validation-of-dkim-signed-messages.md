@@ -2,7 +2,7 @@
 title: "Support for validation of DKIM signed messages"
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
+manager: dansimp
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp

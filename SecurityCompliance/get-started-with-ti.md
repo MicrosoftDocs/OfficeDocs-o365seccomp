@@ -1,9 +1,9 @@
 ---
-title: "Get started with Office 365 Threat Investigation and Response"
+title: "Get started with Office 365 threat investigation and response"
 ms.author: deniseb
 author: denisebmsft
-manager: laurawi
-ms.date: 03/19/2019
+manager: dansimp
+ms.date: 07/09/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -17,19 +17,16 @@ ms.collection:
 description: "Learn about Office 365 Threat investigation and response and how to get started."
 ---
 
-# Get started with Threat Investigation and Response (Office 365 Advanced Threat Protection Plan 2)
+# Get started with threat investigation and response in Office 365 Advanced Threat Protection
 
-If you are part of your organization's security team, you can use Office 365 Threat Investigation and Response capabilities to protect your users from attacks. Office 365 Advanced Threat Protection Plan 2 (formerly Office 365 Threat Intelligence) helps security analysts and administrators keep users safe by bubbling up insights and identifying action based on what is happening in their your Office 365 environment. These insights are based on a comprehensive repository of threat intelligence data and systems to spot patterns that correspond to attack behaviors and suspicious activity.
+If you are part of your organization's security team, you can use Office 365 threat investigation and response capabilities to protect your users from attacks. Office 365 Advanced Threat Protection Plan 2 (formerly known as Office 365 Threat Intelligence) helps security analysts and administrators keep users safe by bubbling up insights and identifying action based on what is happening in their your Office 365 environment. These insights are based on a comprehensive repository of threat intelligence data and systems to spot patterns that correspond to attack behaviors and suspicious activity.
   
 Read this article to learn more about threat investigation and response, and how to get started.
   
-## What are the Threat Investigation and Response capabilities included in Office 365?
+## What are the threat investigation and response capabilities included in Office 365?
 
 Threat investigation and response capabilities help drive insights into threats and related response actions that are available in the Office 365 Security &amp; Compliance Center. These insights can help your organization's security team protect Office 365 users from email or file based attacks. The capabilities help monitor signals and gathers data from multiple sources, such as user activity, authentication, email, compromised PCs, and security incidents. Business decision makers and Office 365 global administrators, security administrators, and security analysts can all use this information to understand and respond to threats against Office 365 users and protect their intellectual property.
 
-> [!IMPORTANT]
-> Office 365 Threat Intelligence is now Office 365 Advanced Threat Protection Plan 2, along with additional threat protection capabilities. To learn more, see [Office 365 Advanced Threat Protection plans and pricing](https://products.office.com/exchange/advance-threat-protection) and the [Office 365 Advanced Threat Protection Service Description](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
-  
 ## Get acquainted with the Threat dashboard, Explorer, and Incidents
 
 These threat investigation and response capabilities surface in the Security &amp; Compliance Center, as a set of tools and response workflows, including the [threat dashboard](#threat-dashboard), [Threat Explorer](#threat-explorer), [Incidents](get-started-with-ti.md#incidents), [Attack Simulator](attack-simulator.md), and Automated Investigations & Response.
@@ -105,4 +102,8 @@ For information about roles, role groups, and permissions, see [Permissions in t
     
 - [Learn about Attack Simulator](attack-simulator.md)
   
+## Additional information
 
+- [Office 365 Advanced Threat Protection plans and pricing](https://products.office.com/exchange/advance-threat-protection) 
+
+- [Office 365 Advanced Threat Protection Service Description](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)

@@ -29,7 +29,7 @@ Article 4 – Definitions
 
 This solution is intended to help organizations discover and protect personal data in Office 365 that might be subject to the GDPR. It is not offered as a GDPR compliance attestation. Organizations are responsible for ensuring their own GDPR compliance and are advised to consult their legal and compliance teams or to seek guidance and advice from third parties that specialize in compliance.
 
-[GDPR Assessment](https://assessment.microsoft.com/gdpr-compliance) is a quick, online self-evaluation tool available at no cost to help your organization review its overall level of readiness to comply with the GDPR (<http://aka.ms/gdprassessment>).
+[GDPR Assessment](https://www.microsoft.com/cyberassessment/en/gdpr/uso365?ls=Email&mkt_tok=eyJpIjoiTTJFeE5USXlOR1EwTWpJMiIsInQiOiJQTmdCYWR5NTlOd3JLWHZlb2NzNldKclQ4ZVBzVmhGeUhoUlFcL1pvSDIyXC9Ka05iTUR1aGpxT0YxQ0FUeGNDOUlkbWZLM1U4SUZWZmEyaGF6XC9ueUxkTHJzZnB3VDRMZlhPdkR4MzRLWkF5ckRNdWwxUkgzXC9yRU8yNkttSHhTb3VpZjNyVlJrNm9TTVZRYU5HR240a0FRPT0ifQ%3D%3D) is a quick, online self-evaluation tool available at no cost to help your organization review its overall level of readiness to comply with the GDPR.
 
 ## Assess and manage your compliance risk
 
@@ -41,7 +41,7 @@ Compliance Manager provides tools to track, implement, and manage the auditing c
 
 ![Use Compliance Manager to view requirements and track progress](Media/Overview-image1.png)
 
-For more information, see [Use Compliance Manager in the Service Trust Portal](https://support.office.com/en-us/article/Use-Compliance-Manager-in-the-Service-Trust-Portal-Preview-5756d342-5af9-4496-82e8-4dd50fa39942). 
+For more information, see [Use Compliance Manager in the Service Trust Portal](https://servicetrust.microsoft.com/ComplianceManager). 
 
 ### Step 2 — Use Content Search and sensitive information types to find personal data 
 

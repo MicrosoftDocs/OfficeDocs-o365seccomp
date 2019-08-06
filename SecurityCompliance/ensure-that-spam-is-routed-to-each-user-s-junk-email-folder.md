@@ -2,7 +2,7 @@
 title: "Ensure that spam is routed to each user's Junk Email folder"
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
+manager: dansimp
 ms.date: 7/16/2016
 audience: ITPro
 ms.topic: article

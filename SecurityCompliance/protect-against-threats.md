@@ -2,7 +2,7 @@
 title: "Protect against threats in Office 365"
 ms.author: tracyp
 author: msfttracyp
-manager: laurawi
+manager: dansimp
 audience: Admin
 ms.topic: hub-page
 ms.service: O365-seccomp

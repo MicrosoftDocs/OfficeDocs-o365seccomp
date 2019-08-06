@@ -2,7 +2,7 @@
 title: "Reporting and message trace in Exchange Online Protection"
 ms.author: chrisda
 author: chrisda
-manager: serdars
+manager: dansimp
 ms.date: 12/18/2017
 audience: ITPro
 ms.topic: article

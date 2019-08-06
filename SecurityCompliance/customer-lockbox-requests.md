@@ -24,7 +24,7 @@ description: "Learn about Customer Lockbox requests that allow you to control ho
 
 Customer Lockbox ensures that Microsoft cannot access your content to perform a service operation without your explicit approval. Customer Lockbox brings you into the approval workflow for requests to access your content.
 
-Occasionally, Microsoft engineers help troubleshoot and fix customer reported issues in the support process. Usually, issues are fixed through extensive telemetry and debugging tools Microsoft has in place for its services. However, some cases require a Microsoft engineer to access customer content to determine the root cause and fix the issue. Customer Lockbox requires the engineer to request access from the customer as a final step in the approval workflow. This gives organizations the option to approve or deny these requests, and provide direct access control to the customer.
+Occasionally, Microsoft engineers help troubleshoot and fix customer reported issues in the support process. Usually, issues are fixed through extensive telemetry and debugging tools Microsoft has in place for its services. However, some cases require a Microsoft engineer to access customer content to determine the root cause and fix the issue. Customer Lockbox requires the engineer to request access from the customer as a final step in the approval workflow. This gives organizations the option to approve or deny these requests, and provide direct-access control to the customer.
 
 ### Customer Lockbox overview video
 
@@ -221,7 +221,7 @@ Global administrators and anyone assigned the Customer Lockbox access approver a
 
 Global administrators and anyone assigned the Customer Lockbox access approver admin role can approve Customer Lockbox requests. Customers control these role assignments in their organizations.
 
-#### How do I opt-in to Customer Lockbox?
+#### How do I opt in to Customer Lockbox?
 
 A global administrator can enable and configure Customer Lockbox in the Microsoft 365 or Microsoft 365 admin center.
 

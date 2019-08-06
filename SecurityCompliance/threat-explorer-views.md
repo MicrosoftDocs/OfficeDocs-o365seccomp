@@ -2,7 +2,7 @@
 title: "Views in Threat Explorer and real-time detections"
 ms.author: deniseb
 author: denisebmsft
-manager: laurawi
+manager: dansimp
 ms.date: 03/18/2019
 audience: ITPro
 ms.topic: article

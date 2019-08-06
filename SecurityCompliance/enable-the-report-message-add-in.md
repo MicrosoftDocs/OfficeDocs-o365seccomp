@@ -2,7 +2,7 @@
 title: "Enable the Report Message add-in"
 ms.author: deniseb
 author: denisebmsft
-manager: laurawi
+manager: dansimp
 ms.date: 03/26/2019
 audience: Admin
 ms.topic: article

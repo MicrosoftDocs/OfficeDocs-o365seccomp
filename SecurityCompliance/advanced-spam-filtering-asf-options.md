@@ -2,8 +2,8 @@
 title: "Advanced spam filtering options"
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
-ms.date: 6/26/2015
+manager: dansimp
+ms.date: 07/09/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -49,5 +49,5 @@ The following table describes each advanced spam filtering option.
 |SPF record: hard fail|When this setting is enabled, messages that fail an SPF check (meaning they were sent from an IP address not specified in the SPF record) will be marked as spam. Turning this setting on is recommended for organizations who are concerned about receiving phishing messages.  <br/> <br/> Test mode is not available for this option.  <br/> |X-CustomSpam: SPF Record Fail  <br/> |
 |Conditional Sender ID filtering: hard fail  <br/> |When this setting is enabled, any message that hard fails a conditional Sender ID check is marked as spam. This option combines an SPF check with a Sender ID check to help protect against message headers that contain forged senders.  <br/> <br/> Test mode is not available for this option.  <br/> |X-CustomSpam: SPF From Record Fail  <br/> |
 |NDR backscatter  <br/> |If you're using EOP to protect on-premises mailboxes, when this setting is enabled, all legitimate non-delivery report (NDR) messages are delivered to the original sender, and all backscatter (illegitimate NDR) messages will be marked as spam. If you don't enable this setting, then all NDRs still go through spam filtering. In this case, most legitimate messages will get delivered to the original sender while some, but not all, backscatter messages will get marked as spam. However, backscatter messages that aren't marked as spam won't go to the original sender because it will go to the spoofed sender. <br/> <br/> If you're using the service to protect Exchange Online cloud-hosted mailboxes, you don't need to configure this setting.  <br/><br/> For both scenarios (on-premises and cloud-hosted mailboxes), it's also not necessary to enable this setting for outbound mail sent through the service, as NDRs that are legitimate bounce messages will be automatically detected and delivered to the original sender. >  Test mode is not available for this option.           <br/><br/>TIP: For more information about backscatter messages and EOP, see [Backscatter messages and EOP](backscatter-messages-and-eop.md).           |X-CustomSpam: Backscatter NDR  <br/> |
-|Bulk mail|Advanced-spam filtering of bulk email has been retired and replaced with the bulk and email threshold settings. Check out [What's the difference between junk email and bulk email?](what-s-the-difference-between-junk-email-and-bulk-email.md) and [Configure your spam filter policies](configure-your-spam-filter-policies.md) for more information and how to configure the settings.||
+|Bulk mail|Advanced-spam filtering of bulk email has been retired and replaced with the bulk and email threshold settings. Check out [What's the difference between junk email and bulk email?](what-s-the-difference-between-junk-email-and-bulk-email.md) and [Configure your spam filter policies](configure-your-spam-filter-policies.md) for more information and how to configure the settings.|X-CustomSpam: Bulk Mail | Bulk Mail  <br/> |
 |

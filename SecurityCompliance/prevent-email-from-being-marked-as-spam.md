@@ -20,9 +20,7 @@ description: "Learn how to prevent False Positives and keep real email out of ju
 
  **Is your real email getting marked as spam in Office 365? Do this.**
   
-If you get a false positive, you should report the message to Microsoft by using the [Use the Report Message add-in](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2). Additionally, you can forward the message *as an attachment* to not_junk@office365.microsoft.com.
-
-**Important** If you do not forward the messages as an attachment, then the headers will be missing and we will be unable to improve the junk mail filtering in Office 365.
+If you get a false positive, you should report the message to Microsoft by using the [Use the Report Message add-in](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2). Additionally, you can submit the message using [Submissions Explorer](admin-submission.md).
     
 ## Determine the reason why the message was marked as spam
 
@@ -56,7 +54,9 @@ In order to work effectively, Exchange Online Protection (EOP) requires that adm
 
 - **Point your DNS records to Office 365** In order for EOP to provide protection, your mail exchanger (MX) DNS record(s) for all domains must be pointed to Office 365 -- and only to Office 365. If your MX does not point to Office 365, then EOP will not provide spam filtering for your users. In the situation where you wish to use another service or appliance to provide spam filtering for your domain, you should consider disabling the spam protection in EOP. You can do this by creating a mail flow rule that sets the SCL value to -1. If you later decide to use EOP, make sure to remove this mail flow rule. 
     
-- **Turn on the report message add-in for users** We strongly recommend that you [enable the report message add-in for your users](enable-the-report-message-add-in.md). As an administrator, you may also be able to view the feedback your users are sending and use any patterns to adjust any settings that may be causing problems.
+- **Turn on the report message add-in for users** We strongly recommend that you [enable the report message add-in for you users](enable-the-report-message-add-in.md).
+
+- **Use [Submissions Explorer](admin-submission.md)** Admins can now send emails by using file or network message ID, URLs, and files for scanning by Microsoft in Office 365. As an administrator, you may also be able to view the feedback your users are sending and use any patterns to adjust any settings that may be causing problems.
 
 - **Make sure that your users are inside the allowed limits** for sending and receiving emails as showed [here](https://docs.microsoft.com/en-us/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
 
@@ -73,7 +73,6 @@ EOP will honor your users' Safe Senders and Recipients, but not Safe Domains. Th
 - **Disable SmartScreen filtering in Outlook** If you are using an older Outlook desktop client, you should disable the SmartScreen filtering functionality, which has been discontinued. If enabled, it can cause false positives. This should not be required if running an updated desktop Outlook client.
 
 ## Troubleshooting: A message ends up in the Junk folder even though EOP marked the message as non-spam
-
 
 If your users have the option in Outlook enabled for "Safe Lists Only: Only mail from people or domains on your Safe Senders list or Safe Recipients List will be delivered to your Inbox", then all email will go to the junk folder for a sender unless the sender is on the recipient's Safe Sender list. This will happen regardless of whether EOP marks a message as non-spam, or if you have set up a rule in EOP to mark a message as non-spam.
   

@@ -2,7 +2,7 @@
 title: "Virus detection in SharePoint Online"
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
+manager: dansimp
 ms.date: 01/14/2019
 audience: Admin
 ms.topic: reference

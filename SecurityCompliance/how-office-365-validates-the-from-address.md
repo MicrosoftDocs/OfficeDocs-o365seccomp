@@ -2,7 +2,7 @@
 title: "How Office 365 validates the From address to prevent phishing"
 ms.author: tracyp
 author: MSFTTracyp
-manager: laurawi
+manager: dansimp
 ms.date: 10/11/2017
 audience: ITPro
 ms.topic: article

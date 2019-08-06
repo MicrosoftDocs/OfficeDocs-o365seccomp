@@ -34,15 +34,15 @@ Action Items are mapped to Controls, and when a Control is mapped to multiple Ac
   
 ### Mandatory or discretionary Controls
   
- **Mandatory Controls** are Controls that cannot be bypassed either intentionally or accidentally. An example of a common mandatory control is a centrally managed password policy that sets requirements for password length, complexity, and expiration. Users must comply with these requirements to access the system.
+ **Mandatory Controls** are actions that cannot be bypassed either intentionally or accidentally. An example of a common mandatory control is a centrally managed password policy that sets requirements for password length, complexity, and expiration. Users must comply with these requirements to access the system.
   
  **Discretionary Controls** rely upon users to understand policy and act accordingly. For example, a policy requiring users to lock their computer when they leave it is a discretionary control because it relies on the user.
   
 ### Preventative, detective, or corrective Controls
   
- **Preventative Controls** are Controls that prevent specific risks. For example, protecting information at rest using encryption is a preventative control against attacks, breaches. Separation of duties is a preventative control to manage conflict of interest and to guard against fraud.
+ **Preventative Controls** are actions that prevent specific risks. For example, protecting information at rest using encryption is a preventative control against attacks, breaches. Separation of duties is a preventative control to manage conflict of interest and to guard against fraud.
   
- **Detective Controls** are Controls that actively monitor systems to identify irregular conditions or behaviors that represent risk or that can be used to detect intrusions or determine if a breach has occurred. System access auditing and privileged administrative actions auditing are types of detective monitoring controls. Regulatory compliance audits are a type of detective control used to find process issues.
+ **Detective Controls** are actions that actively monitor systems to identify irregular conditions or behaviors that represent risk or that can be used to detect intrusions or determine if a breach has occurred. System access auditing and privileged administrative actions auditing are types of detective monitoring controls. Regulatory compliance audits are a type of detective control used to find process issues.
   
 **Corrective Controls** are Controls that try to keep the adverse effects of a security incident to a minimum, take corrective action to reduce the immediate effect, and reverse the damage, if possible. Privacy incident response is a corrective control to limit damage and restore systems to an operational state after a breach.
   

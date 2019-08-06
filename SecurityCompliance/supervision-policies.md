@@ -61,8 +61,7 @@ You create supervision policies in the Compliance center. These policies define 
 Before you start using supervision, you must determine who needs their communications reviewed. In the policy, user email addresses identify individuals or groups of people to supervise. Some examples of these groups are Office 365 Groups, Exchange-based distribution lists, and Microsoft Teams channels. You also can exclude specific users or groups from supervision with a supervised group or a list of groups.
 
 > [!IMPORTANT]
-> Users monitored by supervision policies must have either a Microsoft 365 E5 Compliance license, an Office 365 Enterprise E3 license with the Advanced Compliance add-on, or be included in an Office 365 Enterprise E5 subscription.
-If you don't have an existing Enterprise E5 plan and want to try supervision, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279).
+> Users monitored by supervision policies must have either a Microsoft 365 E5 Compliance license, an Office 365 Enterprise E3 license with the Advanced Compliance add-on, or be included in an Office 365 Enterprise E5 subscription.If you don't have an existing Enterprise E5 plan and want to try supervision, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279).
 
 ### Reviewers
 
@@ -71,6 +70,8 @@ When you create a supervision policy, you must determine who will perform the re
 ### Groups for supervised users and reviewers
 
 To simplify your setup, create groups for people who need their communications reviewed and groups for people who review those communications. If you're using groups, you might need several. For example, if you want to monitor communications between two distinct groups of people, or if you want to specify a group that isn't supervised.
+
+When you select an Office 365 group for supervised users, the policy monitors the content of the shared Office 365 mailbox and the Microsoft Teams channels associated with the group. When you select a distribution list, the policy monitors individual user mailboxes.
 
 ### Supported communication types
 
@@ -118,24 +119,24 @@ Configure custom keyword dictionaries (or lexicons) to provide simple management
 
 #### Offensive language
 
-Monitor sent or received email messages in your organization for offensive language. The model uses a combination of machine learning, artificial intelligence, and keywords to identify inappropriate email messages as part of anti-harassment and cyber bullying monitoring requirements. To prevent or block offensive language for other communications in your organization, create a [data loss prevention policy](create-test-tune-dlp-policy.md) that uses a [custom keyword dictionary](create-a-keyword-dictionary.md) of offensive terms.
+Monitor sent or received email messages in your organization for offensive language. The model uses a combination of machine learning, artificial intelligence, and keywords to identify language in email messages likely to violate anti-harassment and bullying policies. The offensive language model currently supports English keywords and monitors the body of email messages.
 
-The offensive language model currently supports English keywords and monitors the body of email messages. The offensive language model monitors email for sentiment associated with the following types of language:
+> [!NOTE]
+> Create a [data loss prevention policy](create-test-tune-dlp-policy.md) with a [custom keyword dictionary](create-a-keyword-dictionary.md) of blocked terms if you need to:
+>
+> - monitor Microsoft Teams communications in your organization for offensive language
+> - prevent or block offensive language in communications in your organization
+
+Please note that the model does not provide an exhaustive list of offensive language. Further, language and cultural standards continually change, and in light of these realities, Microsoft reserves the right to update the model in its discretion. While the model may assist your organization in monitoring offensive language, the model is not intended to provide your organization’s sole means of monitoring or addressing such language. Your organization, not Microsoft, remains responsible for all decisions related to monitoring and blocking offensive language.
+
+The offensive language model monitors email for sentiment associated with the following types of language:
 
 |**Type**|**Description**|
 |:-----|:-----|
-| **Profanities** | Expressions that are inappropriate and embarrass most people. |
-| **Slurs** | Expressions that attack cultures and ethnicities. |
-| **Taunts** | Expressions that taunt, condemn, and ridicule. |
-| **References to handicaps** | Expressions that target physical or mental handicaps. |
-| **Squalid language** | Expressions that target sexual interests and physical state of cleanliness. |
-| **Homophobia** | Expressions that target sexual preferences. |
-| **Racism** | Expressions that target race and ethnicity. |
-| **Extremism** | Expressions that target religion and political ideologies. |
-| **Disguise** | Expressions for which the meaning or pronunciation is the same as another more offensive term. |
-| **Provocative language** | Expressions that potentially cause anger or violence. |
-| **Taboo** | Expressions generally inappropriate in polite societal communications. |
-| **Unrefined language** | Expressions that lack polite manners and that are potentially harsh and rude. |
+| **Profanities** | Expressions that embarrass most people. |
+| **Slurs** | Expressions that express prejudice against particular groups (e.g., race, ethnicity, sexual orientation, disability). |
+| **Taunts** | Expressions that taunt, condemn, ridicule, or could potentially cause anger or violence. |
+| **Disguised expressions** | Expressions for which the meaning or pronunciation is the same as another more offensive term. |
 
 #### Conditional settings
 
@@ -145,7 +146,7 @@ The following table explains more about each condition.
   
 |**Condition**|**How to use this condition**|
 |:-----|:-----|
-| **Message is received from any of these domains**  <br><br> **Message is not received from any of these domains** | Apply the policy to include or exclude specific domains or email addresses in received messages. Enter each domain or email address and separate multiple domains or email addresses with a comma. Each domain or email address entered is applied separately, only one domain or email address must apply for the policy to apply to the message. <br><br> If you want to monitor all email from a specific domain but want to exclude messages that do not need review (newsletters, announcements, etc.), you must configure two conditions: <br> - A **Message is received from any of these domains** condition that defines the domain ("contoso.com"), AND <br> - A **Message is not received from any of these domains** condition that excludes the email address ("newsletter@contoso.com"). |
+| **Message is received from any of these domains**  <br><br> **Message is not received from any of these domains** | Apply the policy to include or exclude specific domains or email addresses in received messages. Enter each domain or email address and separate multiple domains or email addresses with a comma. Each domain or email address entered is applied separately, only one domain or email address must apply for the policy to apply to the message. <br><br> If you want to monitor all email from a specific domain but want to exclude messages that do not need review (newsletters, announcements, etc.), you must configure the condition a **Message is not received from any of these domains** condition that excludes the email address (example "newsletter@contoso.com"). |
 | **Message is sent to any of these domains**  <br><br> **Message is not sent to any of these domains** | Apply the policy to include or exclude specific domains or email addresses in sent messages. Enter each domain or email address and separate multiple domains or email addresses with a comma. Each domain or email address is applied separately, only one domain or email address must apply for the policy to apply to the message. <br><br> If you want to monitor all email sent to a specific domain but want to exclude sent messages that do not need review, you must configure two conditions: <br> - A **Message is sent to any of these domains** condition that defines the domain ("contoso.com"), AND <br> - A **Message is not sent to any of these domains** condition that excludes the email address ("subscriptions@contoso.com"). |
 | **Message is classified with any of these labels**  <br><br> **Message is not classified with any of these labels** | To apply the policy when certain retention labels are included or excluded in a message. Retention labels must be configured separately and configured labels are chosen as part of this condition. Each label you choose is applied separately (only one of these labels must apply for the policy to apply to the message). For more information about configuring retention labels, see [Overview of retention labels](https://docs.microsoft.com/office365/securitycompliance/labels).|
 | **Message contains any of these words**  <br><br> **Message contains none of these words** | To apply the policy when certain words or phrases are included or excluded in a message, enter each word or phrase on a separate line. Each line of words you enter are applied separately (only one of these lines must apply for the policy to apply to the message). For more information about entering words or phrases, see the next section [Matching words and phrases to emails or attachments](supervision-policies.md#Matchwords).|
@@ -157,6 +158,8 @@ The following table explains more about each condition.
 ##### Matching words and phrases to emails or attachments
 <a name="Matchwords"> </a>
 Each line of words you enter is applied separately (only one line must apply for the policy condition to apply to the email or attachment). For example, let's use the condition, **Message contains any of these words**, with the keywords "banker" and "insider trading" on separate lines. The policy applies to any messages that includes the word "banker" or the phrase "insider trading". Only one of these words or phrases must occur for this policy condition to apply. Words in the message or attachment must exactly match what you enter.
+
+To scan both email messages and attachments for the same keywords, create a [data loss prevention policy](create-test-tune-dlp-policy.md) with a [custom keyword dictionary](create-a-keyword-dictionary.md) for the terms you wish to monitor. This policy configuration identifies defined keywords that appear in either the email message **OR** in the email attachment. Using the standard conditional policy settings (*Message contains any of these words* and *Attachment contains any of these words*) to identify terms in messages and in attachments requires the terms are present in **BOTH** the message and the attachment.
   
 ##### Enter multiple conditions
 

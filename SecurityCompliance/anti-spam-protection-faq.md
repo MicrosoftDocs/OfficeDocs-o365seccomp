@@ -2,7 +2,7 @@
 title: "Anti-spam protection FAQ"
 ms.author: krowley
 author: kccross
-manager: laurawi
+manager: dansimp
 ms.date: 12/9/2016
 audience: ITPro
 ms.topic: article

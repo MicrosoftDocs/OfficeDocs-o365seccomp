@@ -34,11 +34,11 @@ For more information about the different permissions you can give to users in th
 
 - Delegated Access Permission (DAP) partners with Administer On Behalf Of (AOBO) permissions can't access the Security & Compliance Center.
 
-## Use the Office 365 admin center to give another user access to the Security & Compliance Center
+## Use the admin center to give another user access to the Security & Compliance Center
 
 1. [Sign in to Office 365 and go to the Admin center](https://go.microsoft.com/fwlink/p/?LinkId=525275).
 
-2. In the Office 365 admin center, open **Admin centers** and then click **Security & Compliance**.
+2. In the Microsoft 365 admin center, open **Admin centers** and then click **Security & Compliance**.
 
 3. In the Security & Compliance Center, go to **Permissions**.
 
@@ -65,7 +65,7 @@ For more information about the different permissions you can give to users in th
 2. Use the **Add-RoleGroupMember** command to add a user to the Organization Management Role, as shown in the following example.
 
    ```
-   Add-RoleGroupMember -Identity "OrganizationManagement" -Member MatildaS
+   Add-RoleGroupMember -Identity "Organization Management" -Member MatildaS
    ```
 
    **Parameters**:
@@ -81,7 +81,7 @@ For detailed information on syntax and parameters, see [Add-RoleGroupMember](htt
 To verify that you've given users access to the Security & Compliance Center, use the **Get-RoleGroupMember** cmdlet to view the members in the Organization Management role group, as shown in the following example.
   
 ```
-Get-RoleGroupMember -Identity "OrganizationManagement"
+Get-RoleGroupMember -Identity "Organization Management"
 ```
 
 For detailed information on syntax and parameters, see [Get-RoleGroupMember](https://go.microsoft.com/fwlink/p/?LinkId=510860).

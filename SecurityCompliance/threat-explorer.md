@@ -2,8 +2,8 @@
 title: "Threat Explorer (and real-time detections)"
 ms.author: deniseb
 author: denisebmsft
-manager: laurawi
-ms.date: 06/20/2019
+manager: dansimp
+ms.date: 08/02/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -37,7 +37,7 @@ With this report, you can:
 
 ## New features in real-time detections
 
-Explorer / real-time detections adds fresh new fields designed to give you a more complete picture of where your emails land. Part of the goal of this change is to make hunting easier for Security Ops people, but the net result is knowing the location of problem emails at a glance.
+Explorer (and real-time detections) adds fresh new fields designed to give you a more complete picture of where your emails land. Part of the goal of this change is to make hunting easier for Security Ops people, but the net result is knowing the location of problem emails at a glance.
 
 How is this done? Delivery Status is now broken out into two columns:
 
@@ -66,6 +66,9 @@ Delivery location shows the results of policies and detections that run post-del
 5. Quarantine – The email in quarantine, and is not in a user’s mailbox.
 6. Failed – The email failed to reach the mailbox.
 7. Dropped – The email gets lost somewhere in the Mailflow.
+
+The Email Timeline is another new Explorer feature aimed at making the hunting experience better for admins. It cuts down on randomization because there is less time spent checking different locations to try to understand the event. When multiple events happen at, or close to, the same time on an email, those events will show up in a timeline view. In fact, some events that happen post-delivery to your mail will be captured in the 'Special action' column. Combining the information from the timeline of that mail with the special action taken on the mail post-delivery will give admins insight into how their policies work, where the mail was finally routed, and, in some cases, what the final assessment was.
+
 
 ## See malware detected in email by technology
 
@@ -97,9 +100,9 @@ To review phish URLs in messages and clicks on URLs in phish messages, use the [
 
     The report refreshes to show two different URL tables on the URL tab under the report:
 
-   1. **Top URLs** are the URLs contained in the messages you have filtered down to, and the email delivery action counts for each URL. In the phish email view, this list typically will contain legitimate URLs. Attackers include a mix of good and bad URLs in their messages to try to get them delivered, but they will make the malicious links more interesting for the user to click. The table of URLs is sorted by total email count (NOTE: This column is not shown to simplify the view).
+   - **Top URLs** are the URLs contained in the messages you have filtered down to, and the email delivery action counts for each URL. In the phish email view, this list typically will contain legitimate URLs. Attackers include a mix of good and bad URLs in their messages to try to get them delivered, but they will make the malicious links more interesting for the user to click. The table of URLs is sorted by total email count (NOTE: This column is not shown to simplify the view).
 
-   2. **Top clicks** are the Safe Links wrapped URLs that were clicked, sorted by total click count (this column is also not shown to simplify the view). Total counts by column indicate the Safe Links click verdict count for each clicked URL. In the phish email view, these are more often suspicious or malicious URLs, but could include clean URLs that are in phish messages. URL clicks on unwrapped links will not show up here.
+   - **Top clicks** are the Safe Links wrapped URLs that were clicked, sorted by total click count (this column is also not shown to simplify the view). Total counts by column indicate the Safe Links click verdict count for each clicked URL. In the phish email view, these are more often suspicious or malicious URLs, but could include clean URLs that are in phish messages. URL clicks on unwrapped links will not show up here.
    
    The two URLs tables show top URLs in phishing emails by delivery action and location, and they show URL clicks that were blocked (or visited despite a warning) so that you can understand what potential bad links were received by users and interacted with by users. From here, you can conduct further analysis. For example, below the chart, you can see the top URLs in emails that were blocked in your organization's environment.
    
@@ -162,3 +165,7 @@ To learn more about roles and permissions, see the following resources:
 - [Permissions in the Office 365 Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md)
 - [Feature permissions in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions)
   
+## Some differences between Threat Exporter and real-time detections
+
+ - The **real-time detections** report is available in Office 365 ATP Plan 1, whereas **Threat Explorer** is available in Office 365 ATP Plan 2.
+ - The **real-time detections** report allows you to view detections in real-time. **Threat Explorer** does this as well, but also allows you to view additional details for a given attack.

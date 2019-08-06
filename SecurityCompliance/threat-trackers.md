@@ -2,7 +2,7 @@
 title: "Threat Trackers - New and Noteworthy"
 ms.author: deniseb
 author: denisebmsft
-manager: laurawi
+manager: dansimp
 audience: ITPro
 ms.topic: overview
 ms.service: O365-seccomp

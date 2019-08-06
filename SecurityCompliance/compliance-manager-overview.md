@@ -42,7 +42,7 @@ The diagram shows the relationships between the primary components of Compliance
 
 ## Groups
 
-[Groups](https://docs.microsoft.com/office365/securitycompliance/working-with-compliance-manager#groups) are containers that allow you to organize Assessments and share common information and workflow tasks between Assessments that have the same or related customer-managed controls. When two different Assessments in the same group share customer-managed control, the completion of implementation details, testing, and status for the control automatically synchronize to the same control in any other Assessment in the Group. This unifies the assigned Action Items for each control across the group and reduce duplicating work. You can also choose to use groups to organize. Assessments by year, area, compliance standard, or other groupings to help organize your compliance work.
+[Groups](https://docs.microsoft.com/office365/securitycompliance/working-with-compliance-manager#groups) are containers that allow you to organize Assessments and share common information and workflow tasks between Assessments that have the same or related customer-managed controls. When two different Assessments in the same group share customer-managed control, the completion of implementation details, testing, and status for the control automatically synchronize to the same control in any other Assessment in the Group. This unifies the assigned Action Items for each control across the group and reduces duplicating work. You can also choose to use groups to organize. Assessments by year, area, compliance standard, or other groupings to help organize your compliance work.
 
 ## Assessments
 
@@ -102,7 +102,7 @@ A shared control refers to any control where Microsoft and customers both share 
 
 People in your organization can use Compliance Manager to review the customer-managed controls from all Assessments for which they are assigned. When a user signs in to Compliance Manager and opens the **Action Items** dashboard, a list of Action Items assigned to them is displayed. Depending on the Compliance Manager role assigned to the user, they can provide implementation or test details, update the Status, or assign Action Items.
 
-Certification controls are usually implemented by one person and tested by another. For example, after Action Items initially assigned to one person for implementation are completed, Action Items are assigned to the next person for testing and uploading of evidence. Any user with sufficient permissions for control assignments can assign and reassign Action Items. This enables central management of control assignments and decentralized routing of Action Items between implementors and testers.
+Certification controls are usually implemented by one person and tested by another. For example, after Action Items initially assigned to one person for implementation are completed, Action Items are assigned to the next person to test and upload evidence. Any user with sufficient permissions for control assignments can assign and reassign Action Items. This enables central management of control assignments and decentralized routing of Action Items between implementors and testers.
 
 ## Permissions
 
@@ -110,7 +110,7 @@ Compliance Manager uses a role-based access control [permission model](https://d
 
 To change from default permissions and implement a fully role-based access control model, at least one user must be added to each Compliance Manager role. After a user is added to a role, the permissions to perform the actions assigned to that role are removed from the default set of permissions available to all users. Only users provisioned with the role will be able to access Compliance Manager and perform the actions allowed by that role.
 
-For example, if you add a user to the role to manage Assessments, only members of that role can manage Assessments. If you don't add a user to the role that allows users read the data in Assessments, all users in your organization can access Compliance Manager and read data in any Assessment.
+If you add a user to the role to manage Assessments, only members of that role can manage Assessments. If you don't add a user to the role that allows users read the data in Assessments, all users in your organization can access Compliance Manager and read data in any Assessment.
   
 ## Manage evidence
 

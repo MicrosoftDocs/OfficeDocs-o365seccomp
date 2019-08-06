@@ -2,6 +2,7 @@
 title: "Walkthrough spoof intelligence insight"
 ms.author: tracyp
 author: MSFTTracyP
+manager: dansimp
 ms.date: 7/30/2018
 audience: ITPro
 ms.topic: overview

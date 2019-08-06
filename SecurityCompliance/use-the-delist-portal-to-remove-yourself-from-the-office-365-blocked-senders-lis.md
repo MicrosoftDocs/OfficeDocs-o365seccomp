@@ -2,8 +2,8 @@
 title: "Use the delist portal to remove yourself from the Office 365 blocked senders list"
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
-ms.date: 4/18/2016
+manager: dansimp
+ms.date: 04/18/2016
 audience: ITPro
 ms.topic: troubleshooting
 ms.service: O365-seccomp

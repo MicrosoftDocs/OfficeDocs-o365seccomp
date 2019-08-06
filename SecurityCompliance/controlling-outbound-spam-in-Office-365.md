@@ -2,7 +2,7 @@
 title: "Control outbound spam in Office 365"
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
+manager: dansimp
 ms.date: 09/18/2018
 audience: Admin
 ms.topic: overview

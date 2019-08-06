@@ -4,7 +4,7 @@ description: Describes what policies and protections apply when e-mail encounter
 keywords: security, malware, Microsoft 365, M365, security center, ATP, Microsoft Defender ATP, Office 365 ATP, Azure ATP
 ms.author: tracyp
 author: MSFTTracyp
-manager: laurawi
+manager: dansimp
 ms.date: 03/26/2019
 audience: ITPro
 ms.topic: article

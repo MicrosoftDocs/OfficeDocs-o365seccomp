@@ -1,9 +1,9 @@
 ---
 title: "Mail flow rules (transport rules) in Exchange Online Protection"
-ms.author: krowley
-author: kccross
-manager: laurawi
-ms.date: 4/29/2017
+ms.author: tracyp
+author: MSFTTracyP
+manager: dansimp
+ms.date: 04/29/2017
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp

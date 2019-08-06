@@ -3,7 +3,6 @@ title: "Apply labels to personal data in Office 365"
 ms.author: bcarter
 author: brendacarter
 manager: laurawi
-ms.date: 
 audience: ITPro
 ms.topic: overview
 ms.collection: 

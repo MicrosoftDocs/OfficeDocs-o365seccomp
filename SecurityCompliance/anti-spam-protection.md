@@ -2,7 +2,7 @@
 title: "Office 365 email anti-spam protection"
 ms.author: krowley
 author: kccross
-manager: laurawi
+manager: dansimp
 ms.date: 6/29/2018
 audience: Admin
 ms.topic: overview

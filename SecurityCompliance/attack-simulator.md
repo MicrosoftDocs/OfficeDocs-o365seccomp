@@ -2,7 +2,7 @@
 title: "Attack Simulator in Office 365"
 ms.author: deniseb
 author: denisebmsft
-manager: laurawi
+manager: dansimp
 ms.date: 06/13/2019
 audience: ITPro
 ms.topic: overview

@@ -2,7 +2,7 @@
 title: "Permissions in the Office 365 Security & Compliance Center"
 ms.author: chrisda
 author: chrisda
-manager: chrisda
+manager: dansimp
 ms.date: 07/01/2019
 audience: Admin
 ms.topic: conceptual

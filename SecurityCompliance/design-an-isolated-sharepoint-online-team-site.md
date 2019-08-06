@@ -62,17 +62,17 @@ Using the default SharePoint groups as an example:
     
  **Best practice:** Although you can manage permissions through individual user accounts, we recommend that you use a single Azure AD group, known as an access group, instead. This simplifies the management of permissions through membership in the access group, rather than managing the list of user accounts for each SharePoint group.
   
-Azure AD groups for Office 365 are different than Office 365 groups. Azure AD groups appear in the Office Admin center with their **Type** set to **Security** and do not have an email address. Azure AD groups can be managed within:
+Azure AD groups for Office 365 are different than Office 365 groups. Azure AD groups appear in the Microsoft 365 admin center with their **Type** set to **Security** and do not have an email address. Azure AD groups can be managed within:
   
-- Windows Server Active Directory (AD)
+- Active Directory Domain Services (AD DS)
     
-    These are groups that have been created in your on-premises Windows Server AD infrastructure and synchronized to your Office 365 subscription. In the Office Admin center, these groups have a **Status** of **Synched with active directory**.
+    These are groups that have been created in your on-premises AD DS infrastructure and synchronized to your Office 365 subscription. In the Microsoft 365 admin center, these groups have a **Status** of **Synched with active directory**.
     
 - Office 365
     
-    These are groups that have been created using either the Office Admin center, the Azure portal, or Microsoft PowerShell. In the Office Admin center, these groups have a **Status** of **Cloud**.
+    These are groups that have been created using either the Microsoft 365 admin center, the Azure portal, or Microsoft PowerShell. In the Microsoft 365 admin center, these groups have a **Status** of **Cloud**.
     
- **Best practice:** If you are using Windows Server AD on-premises and synchronizing with your Office 365 subscription, perform your user and group management with Windows Server AD.
+ **Best practice:** If you are using AD DS on-premises and synchronizing with your Office 365 subscription, perform your user and group management with AD DS.
   
 For isolated SharePoint Online team sites, the recommended group structure looks like this:
   
@@ -82,7 +82,7 @@ For isolated SharePoint Online team sites, the recommended group structure looks
 |\<site name> Visitors  <br/> |\<site name> Viewers  <br/> |Read  <br/> |
 |\<site name> Owners  <br/> |\<site name> Admins  <br/> |Full control  <br/> |
    
- **Best practice:** Although you can use either Office 365 or Azure AD groups as members of SharePoint groups, we recommend that you use Azure AD groups. Azure AD groups, managed either through Windows Server AD or Office 365, give you more flexibility to use nested groups to assign permissions.
+ **Best practice:** Although you can use either Office 365 or Azure AD groups as members of SharePoint groups, we recommend that you use Azure AD groups. Azure AD groups, managed either through AD DS or Office 365, give you more flexibility to use nested groups to assign permissions.
   
 Here are the default SharePoint groups configured to use Azure AD-based access groups.
   

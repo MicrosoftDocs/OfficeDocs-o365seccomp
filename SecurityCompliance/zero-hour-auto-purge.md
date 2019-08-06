@@ -2,7 +2,7 @@
 title: "Zero-hour auto purge - protection against spam and malware"
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
+manager: dansimp
 ms.date: 04/11/2019
 audience: Admin
 ms.topic: article
@@ -37,33 +37,42 @@ ZAP is turned on by default, but the following conditions must be met:
 
 Office 365 updates anti-spam engine and malware signatures in real-time on a daily basis. However, your users might still get malicious messages delivered to their inboxes for a variety of reasons, including if content is weaponized after being delivered to users. ZAP addresses this by continually monitoring updates to the Office 365 spam and malware signatures. ZAP can find and remove previously delivered messages that are already in users' inboxes.
 
-- For mail that is identified as spam, ZAP moves unread messages to users' Junk mail folder.
-
-- For mail that is identified as phish, ZAP moves messages to users' Junk mail folder, regardless of whether the email has been read.
-
-- For newly detected malware, ZAP removes attachments from email messages, regardless of whether the email has been read.
-  
 The ZAP action is seamless for the mailbox user; they are not notified if an email message is moved. Message must not be older than 2 days.
   
 Allow lists, [mail flow rules](https://go.microsoft.com/fwlink/p/?LinkId=722755), and end user rules or additional filters take precedence over ZAP.
-  
-## To review or set up a spam filter policy
-  
-1. Go to [https://protection.office.com](https://protection.office.com) and sign in using your work or school account for Office 365.
 
-2. Under **Threat management**, choose **Anti-spam**.
+**Malware ZAP**
+For newly detected malware, ZAP removes attachments from email messages, leaving the body of the message in the user's mailbox. Attachments are removed regardless of the read status of the mail.
 
-3. Review the standard settings.
+Malware ZAP is enabled by default in the Malware Policy. Malware ZAP can be disabled using the **ZapEnabled** parameter of [Set-MalwareFilterPolicy](https://docs.microsoft.com/en-us/powershell/module/exchange/antispam-antimalware/set-malwarefilterpolicy?view=exchange-ps), an EOP cmdlet.
 
-4. If you want to customize your settings, select the **Custom** tab, and turn on **Custom settings**. Edit your settings and if you want, choose **+ Create a policy** to add a new policy.
+**Phish ZAP**
+For mail that is identified as phish after delivery, ZAP takes action according to the Spam policy that the user is covered by. If the policy Phish action is set to take action on a mail (Redirect, Delete, Quarantine, Move to Junk) then ZAP will move the message to the Junk mail folder of the user's inbox, regardless of the read status of the mail. If the policy Phish action is not set to take action (Add X-header, Modify subject, No action) then ZAP will not take action on the mail. Learn more about how to [configure your spam filter policies](https://docs.microsoft.com/en-us/office365/securitycompliance/configure-your-spam-filter-policies) here.
+
+Phish ZAP is enabled by default in the Spam Policy. Phish ZAP can be disabled using the **ZapEnabled** parameter of [Set-HostedContentFilterPolicy](https://go.microsoft.com/fwlink/p/?LinkId=722758), an EOP cmdlet.
+Note: Disabling -ZapEnabled will disable both Phish ZAP and Spam ZAP
+
+**Spam ZAP**
+For mail that is identified as spam after delivery, ZAP takes action according to the Spam policy that the user is covered by. If the policy Spam action is set to take action on a mail (Redirect, Delete, Quarantine, Move to Junk) then ZAP will move the message to the Junk mail folder of the user's inbox, if the message is unread. If the policy Spam action is not set to take action (Add X-header, Modify subject, No action) then ZAP will not take action on the mail. Learn more about how to [configure your spam filter policies](https://docs.microsoft.com/en-us/office365/securitycompliance/configure-your-spam-filter-policies) here.
+
+Spam ZAP is enabled by default in the Spam Policy. Spam ZAP can be disabled using the **ZapEnabled** parameter of [Set-HostedContentFilterPolicy](https://go.microsoft.com/fwlink/p/?LinkId=722758), an EOP cmdlet.
+Note: Disabling -ZapEnabled will disable both Phish ZAP and Spam ZAP
 
 ## To see if ZAP moved your message
 
 If you want to see if ZAP moved your message, you can use either the [Threat Protection Status report](view-email-security-reports.md#threat-protection-status-report) or [Threat Explorer (and real-time detections)](threat-explorer.md).
 
 ## To disable ZAP
-  
-If you want to disable ZAP for your Office 365 tenant, or a set of users, use the **ZapEnabled** parameter of [Set-HostedContentFilterPolicy](https://go.microsoft.com/fwlink/p/?LinkId=722758), an EOP cmdlet.
+**Disabling Malware ZAP**
+To disable Malware ZAP for your O365 tenant, or a set of users, use the **ZapEnabled** parameter of [Set-MalwareFilterPolicy](https://docs.microsoft.com/en-us/powershell/module/exchange/antispam-antimalware/set-malwarefilterpolicy?view=exchange-ps), an EOP cmdlet.
+
+In the following example, ZAP is disabled for a content filter policy named "Test".
+
+```Powershell
+  Set-HostedContentFilterPolicy -Identity Test -ZapEnabled $false
+```
+**Disabling Phish and Spam ZAP**
+To disable both Phish and Spam ZAP for your O365 tenant, or a set of users, use the **ZapEnabled** parameter of [Set-HostedContentFilterPolicy](https://go.microsoft.com/fwlink/p/?LinkId=722758), an EOP cmdlet.
 
 In the following example, ZAP is disabled for a content filter policy named "Test".
 

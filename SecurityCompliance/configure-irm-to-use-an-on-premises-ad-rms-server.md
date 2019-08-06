@@ -1,7 +1,7 @@
 ---
 title: "Configure IRM to use an on-premises AD RMS server"
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: krowley
+author: kccross
 manager: laurawi
 ms.date: 12/13/2017
 audience: End User

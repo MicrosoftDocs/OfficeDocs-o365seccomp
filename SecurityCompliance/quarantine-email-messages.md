@@ -2,7 +2,7 @@
 title: "Quarantine email messages in Office 365"
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
+manager: dansimp
 ms.date: 6/29/2018
 audience: Admin
 ms.topic: hub-page

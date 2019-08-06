@@ -2,14 +2,14 @@
 title: "Removing a user from the Restricted Users portal after sending spam email"
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
-ms.date: 03/12/2019
+manager: dansimp
+ms.date: 07/10/2019
 audience: ITPro
 ms.topic: article
 f1_keywords:
 - 'ms.exch.eac.ActionCenter.Restricted.Users.RestrictedUsers'
 ms.service: O365-seccomp
-localization_priority: Normal
+localization_priority: Priority
 search.appverid:
 - MET150
 ms.assetid: 712cfcc1-31e8-4e51-8561-b64258a8f1e5
@@ -68,6 +68,11 @@ You will be able to Edit the alert to:
 - Turn email notifications On/Off
 - Email the required recipients
 - Limit the notifications you get per day
+
+## Checking for and removing restrictions using PowerShell
+The PowerShell commands for Restricted Users are:
+- `Get-BlockedSenderAddress`: Run to retreive the list of users that are restricted from sending email
+- `Remove-BlockedSenderAddress`: Run to remove user(s) from being restricted
 
 ## For more information
 

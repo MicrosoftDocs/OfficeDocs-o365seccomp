@@ -2,8 +2,8 @@
 title: "Sync user certificates to Office 365 for S/MIME"
 ms.author: chrisda
 author: chrisda
-manager: Serdars
-ms.date: 12/9/2016
+manager: dansimp
+ms.date: 12/09/2016
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp

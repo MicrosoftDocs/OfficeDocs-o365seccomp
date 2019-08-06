@@ -2,8 +2,8 @@
 title: "Smart reports and insights in the Security & Compliance Center"
 ms.author: deniseb
 author: denisebmsft
-manager: laurawi
-ms.date: 7/19/2018
+manager: dansimp
+ms.date: 07/19/2018
 audience: ITPro
 ms.topic: overview
 ms.service: O365-seccomp

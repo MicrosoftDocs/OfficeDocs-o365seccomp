@@ -2,7 +2,7 @@
 title: "SIEM integration with Office 365 Advanced Threat Protection"
 ms.author: deniseb
 author: denisebmsft
-manager: laurawi
+manager: dansimp
 audience: ITPro
 ms.topic: overview
 ms.service: O365-seccomp

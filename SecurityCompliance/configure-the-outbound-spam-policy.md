@@ -2,7 +2,7 @@
 title: "Configure the outbound spam policy"
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
+manager: dansimp
 ms.date: 11/10/2016
 audience: ITPro
 ms.topic: article
@@ -24,6 +24,9 @@ The following video shows how to configure the outbound spam policy:
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/1f20d655-0d3d-4141-9cae-e57f5a6cffe8?autoplay=false]
   
+> [!NOTE]
+> For the best filtering results, the content in the video above should used with a proper setup, and familiarity with [Outbound spam controls in Office 365](https://docs.microsoft.com/office365/securitycompliance/outbound-spam-controls).
+
 ## What do you need to know before you begin?
 <a name="sectionSection0"> </a>
 

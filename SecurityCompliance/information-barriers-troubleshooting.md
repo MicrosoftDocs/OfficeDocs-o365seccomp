@@ -3,7 +3,7 @@ title: "Troubleshooting information barriers"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 06/28/2019
+ms.date: 07/08/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -13,9 +13,9 @@ localization_priority: None
 description: "Use this article as a guide for troubleshooting information barriers."
 ---
 
-# Troubleshooting information barriers (Preview)
+# Troubleshooting information barriers
 
-[Information barriers (Preview)](information-barriers.md) can help your organization remain compliant with legal requirements and industry regulations. For example, with information barriers, you can restrict communication between specific groups of users to avoid a conflict of interest or other issues. (To learn more about how to set up information barriers, see [Define policies for information barriers (Preview)](information-barriers-policies.md).)
+[Information barriers](information-barriers.md) can help your organization remain compliant with legal requirements and industry regulations. For example, with information barriers, you can restrict communication between specific groups of users to avoid a conflict of interest or other issues. (To learn more about how to set up information barriers, see [Define policies for information barriers](information-barriers-policies.md).)
 
 In the event that people run into unexpected issues after information barriers are in place, there are some steps you can take to resolve those issues. Use this article as a guide.
 
@@ -166,9 +166,9 @@ Make sure that your organization does not have [Exchange address book policies](
 
 ## Related topics
 
-[Define policies for information barriers in Microsoft Teams (Preview)](information-barriers-policies.md)
+[Define policies for information barriers in Microsoft Teams](information-barriers-policies.md)
 
-[Information barriers (Preview)](information-barriers.md)
+[Information barriers](information-barriers.md)
 
 
 

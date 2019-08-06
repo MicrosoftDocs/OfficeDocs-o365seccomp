@@ -2,7 +2,7 @@
 title: "Set up Office 365 ATP Safe Links policies"
 ms.author: deniseb
 author: denisebmsft
-manager: laurawi
+manager: dansimp
 audience: Admin
 ms.topic: article
 ms.date: 06/26/2019
@@ -92,9 +92,9 @@ After you have reviewed (or edited) the default ATP Safe Links policy that appli
     
   - In the **Select the action** section, choose **On**.
     
-  - Select **Use Safe Attachments to scan downloadable content**.
+  - Select **Apply real-time URL scanning for suspicious links and links that point to files** if you would like to enable URL detonation for suspicious and file-pointing URLs (recommended). And select **Wait for URL scanning to complete before delivering the message** if you wish to only have users receive messages after the URLs have been fully scanned.
     
-  - If this option is available, select **Apply Safe Links to messages sent within the organization**.
+  - Select **Apply Safe Links to messages sent within the organization** if you would like to enable Safe Links for messages sent between users within your organization (recommended).
     
   - Select **Do not allow user to click through to original URL**.
     

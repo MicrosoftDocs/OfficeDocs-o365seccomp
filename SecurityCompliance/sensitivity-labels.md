@@ -262,8 +262,8 @@ To learn more about the Microsoft Information Protection SDK, see the [announcem
 
 ## Permissions
 
-Members of your compliance team who will create sensitivity labels need permissions to the Security & Compliance Center. By default, your tenant admin will have access to this location and can give compliance officers and other people access to the Security & Compliance Center, without giving them all of the permissions of a tenant admin. To do this, we recommend that you go to the **Permissions** page of the Security & Compliance Center, edit the **Compliance Administrator** role group, and add members to that role group.
+Members of your compliance team who will create sensitivity labels need permissions to the Microsoft 365 compliance center, Microsoft 365 security center, or Office 365 Security & Compliance Center. By default, your tenant admin will have access to these admin centers and can give compliance officers and other people access, without giving them all of the permissions of a tenant admin. To do this, we recommend that you go to the **Permissions** page of one of these admin centers, and then add members to the **Compliance Administrator** or **Security Administrator** role group.
 
-For more information, see [Give users access to the Office 365 Security & Compliance Center](grant-access-to-the-security-and-compliance-center.md).
+For more information, see  [Give users access to the Office 365 Security & Compliance Center](grant-access-to-the-security-and-compliance-center.md).
 
 These permissions are required only to create and apply labels and a label policy. Policy enforcement does not require access to the content.

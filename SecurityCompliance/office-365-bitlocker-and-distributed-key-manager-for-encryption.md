@@ -1,7 +1,7 @@
 ---
 title: "Office 365 BitLocker for Encryption"
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: krowley
+author: kccross
 manager: laurawi
 audience: ITPro
 ms.topic: article

@@ -2,7 +2,7 @@
 title: "How Exchange Online uses TLS to secure email connections in Office 365"
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
+manager: dansimp
 ms.date: 8/2/2018
 audience: ITPro
 ms.topic: reference

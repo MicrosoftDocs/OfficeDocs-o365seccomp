@@ -36,7 +36,7 @@ In this phase, you create the labels for the different levels of security for Sh
     
 2. From the **Microsoft Office Home** tab, click the **Admin** tile.
     
-3. From the new **Office Admin center** tab of your browser, click **Admin centers > Security &amp; Compliance**.
+3. From the new **Microsoft 365 admin center** tab of your browser, click **Admin centers > Security &amp; Compliance**.
     
 4. From the new **Home - Security &amp; Compliance** tab of your browser, click **Classifications > Labels**.
     

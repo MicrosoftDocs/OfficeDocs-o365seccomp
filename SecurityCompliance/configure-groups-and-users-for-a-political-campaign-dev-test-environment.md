@@ -35,7 +35,7 @@ Next, sign up for the EMS E5 trial subscription and add it to the same organizat
     
 2. Click the **Admin** tile.
     
-3. On the **Office Admin center** tab in your browser, in the left navigation, click **Billing > Purchase services**.
+3. On the **Microsoft 365 admin center** tab in your browser, in the left navigation, click **Billing > Purchase services**.
     
 4. On the **Purchase services** page, find the **Enterprise Mobility + Security E5** item. Hover your mouse pointer over it and click **Start free trial**.
     
@@ -165,7 +165,7 @@ Use these steps to verify that dynamic group membership and group-based licensin
   
 1. From the **Microsoft Office Home** tab of your browser, click the **Admin** tile.
     
-2. From the new **Office Admin center** tab of your browser, click **Users**.
+2. From the new **Microsoft 365 admin center** tab of your browser, click **Users**.
     
 3. In the list of users, click **Candidate**.
     

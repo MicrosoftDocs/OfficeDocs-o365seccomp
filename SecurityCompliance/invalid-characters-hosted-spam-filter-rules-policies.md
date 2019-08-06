@@ -2,8 +2,8 @@
 title: "Avoid invalid characters in your spam filter rules and the spam filter policy"
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
-ms.date: 9/24/2018
+manager: dansimp
+ms.date: 09/24/2018
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp

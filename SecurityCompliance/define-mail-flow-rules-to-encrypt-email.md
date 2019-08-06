@@ -13,7 +13,7 @@ search.appverid:
 ms.assetid: 9b7daf19-d5f2-415b-bc43-a0f5f4a585e8
 ms.collection:
 - M365-security-compliance
-description: "Admins can learn to to create mail flow rules (transport rules) to encrypt and decrypt messages using Office 365 Message Encryption."
+description: "Admins can learn to create mail flow rules (transport rules) to encrypt and decrypt messages using Office 365 Message Encryption."
 ---
 
 # Define mail flow rules to encrypt email messages in Office 365
@@ -42,7 +42,7 @@ You can define mail flow rules for triggering message encryption with the new OM
 
 2. Choose the **Admin** tile.
 
-3. In the Office 365 admin center, choose **Admin centers** \> **Exchange**.
+3. In the Microsoft 365 admin center, choose **Admin centers** \> **Exchange**.
 
 4. In the EAC, go to **Mail flow** \> **Rules** and select **New** ![New icon](media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> **Create a new rule**. For more information about using the EAC, see [Exchange admin center in Exchange Online](https://docs.microsoft.com/exchange/exchange-admin-center).
 
@@ -74,7 +74,7 @@ You can define mail flow rules for triggering message encryption with the new OM
 
 2. Choose the **Admin** tile.
 
-3. In the Office 365 admin center, choose **Admin centers** \> **Exchange**.
+3. In the Microsoft 365 admin center, choose **Admin centers** \> **Exchange**.
 
 4. In the EAC, go to **Mail flow** \> **Rules**.
 
@@ -100,7 +100,7 @@ If you haven't yet moved your Office 365 organization to the new OME capabilitie
 
 2. Choose the **Admin** tile.
 
-3. In the Office 365 admin center, choose **Admin centers** \> **Exchange**.
+3. In the Microsoft 365 admin center, choose **Admin centers** \> **Exchange**.
 
 4. In the EAC, go to **Mail flow** \> **Rules** and select **New** ![New icon](media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> **Create a new rule**. For more information about using the EAC, see [Exchange admin center in Exchange Online](https://docs.microsoft.com/exchange/exchange-admin-center).
 
@@ -158,7 +158,7 @@ When your email users send encrypted messages, recipients of those messages can 
 
 2. Choose the **Admin** tile.
 
-3. In the Office 365 admin center, choose **Admin centers** \> **Exchange**.
+3. In the Microsoft 365 admin center, choose **Admin centers** \> **Exchange**.
 
 4. In the EAC, go to **Mail flow** \> **Rules** and select **New** ![New icon](media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> **Create a new rule**. For more information about using the EAC, see [Exchange admin center in Exchange Online](https://docs.microsoft.com/exchange/exchange-admin-center).
 

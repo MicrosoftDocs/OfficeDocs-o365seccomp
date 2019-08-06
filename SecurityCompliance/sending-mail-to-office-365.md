@@ -2,8 +2,8 @@
 title: "Sending mail to Office 365"
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
-ms.date: 4/9/2016
+manager: dansimp
+ms.date: 04/09/2016
 audience: ITPro
 ms.topic: hub-page
 ms.service: O365-seccomp

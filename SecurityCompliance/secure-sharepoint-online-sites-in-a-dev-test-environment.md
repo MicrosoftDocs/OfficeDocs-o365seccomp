@@ -179,7 +179,7 @@ Use these steps to verify that group-based licensing is working correctly.
   
 1. From the **Microsoft Office Home** tab of your browser, click the **Admin** tile.
     
-2. From the new **Office Admin center** tab of your browser, click **Users**.
+2. From the new **Microsoft 365 admin center** tab of your browser, click **Users**.
     
 3. In the list of users, click **CEO**.
     
