@@ -57,6 +57,8 @@ With retention labels, you can:
     
 You create and manage retention labels on the **Labels** page > **Retention** tab in the Microsoft 365 compliance center, Microsoft 365 security center, or Office 365 Security and Compliance Center.  
 
+See also [Overview of file plan manager](file-plan-manager.md)
+
 ## How retention labels work with retention label policies
 
 Making retention labels available to people in your organization so that they can classify content is a two-step process: first you create the retention labels, and then you publish them to the locations you choose. When you publish retention labels, a retention label policy gets created.
